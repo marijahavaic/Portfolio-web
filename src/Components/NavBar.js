@@ -1,5 +1,9 @@
 import React from 'react';
 
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+
 class NavBar extends React.Component {
     
     render() { 
@@ -7,18 +11,13 @@ class NavBar extends React.Component {
         <div className="NavBar">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
-                    </Nav>
                     <Nav>
-                    <Nav.Link href="#deets">More deets</Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes">
-                        Dank memes
-                    </Nav.Link>
+                        <Nav.Link href="#aboutme">About</Nav.Link>
+                        <Nav.Link href="#deets">Projects</Nav.Link>
+                        <Nav.Link href="#contactme">Contact me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Container>
