@@ -1,4 +1,18 @@
 .AboutMe {
     height: 100vh;
+    padding-top:30px;
     background-color: #212529;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-container {
+    max-width: 50%;
+    height: auto;
+}
+
+.image {
+    width: 100%;
 }
