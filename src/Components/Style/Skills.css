@@ -1,16 +1,40 @@
 .Skills {
-    height: 30vh;
+    height: 50vh;
     padding:30px 100px 0 100px;
-    background-color: #212529;
     color: aliceblue;
+    background-color: #212529;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
 }
 
 .frontend-container {
     max-width: 50%;
     height: auto;
+}
+
+.icons {
+    font-size: 45px;
+}
+
+.icons p {
+    font-size: 10px;
+}
+
+.icons ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icons ul li {
+    padding: 15px;
+}
+
+.icons ul li:hover {
+    color: lightblue;
 }
 
 .design-container {
