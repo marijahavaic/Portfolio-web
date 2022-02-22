@@ -1,0 +1,19 @@
+.Skills {
+    height: 60vh;
+    padding:30px 100px 0 100px;
+    background-color: #212529;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.frontend-container {
+    max-width: 50%;
+    height: auto;
+}
+
+.design-container {
+    max-width: 50%;
+
+}
