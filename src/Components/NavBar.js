@@ -4,6 +4,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import './NavBar.css';
+
 class NavBar extends React.Component {
     
     render() { 
@@ -14,6 +18,8 @@ class NavBar extends React.Component {
                 <Navbar.Brand href="#home">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className='me-auto'>
+                    </Nav>                    
                     <Nav>
                         <Nav.Link href="#aboutme">About</Nav.Link>
                         <Nav.Link href="#deets">Projects</Nav.Link>
