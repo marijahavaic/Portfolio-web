@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './Components/NavBar';
 import AboutMe from './Components/AboutMe';
+import Skills from './Components/Skills';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       
       <AboutMe />
       
-      {/* <Skills />
+      <Skills />
+{/*       
       <Projects />
       <ContactMe /> */}
 
