@@ -16,9 +16,9 @@ class AboutMe extends React.Component {
                 <img className='image' src={portfolio_undraw}/>
             </div>
             <div className='text-container'>
-                <h1>I am Marija</h1>
+                <h1>Hi, I am Marija</h1>
                 <p>
-                    Self-thaught 
+                A passonate self-taught Front-End Developer. Having an experience of building Web applications with JavaScript and Reactjs and some other cool libraries and frameworks. 
                 </p>
             </div>
 
