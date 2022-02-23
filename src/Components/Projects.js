@@ -9,6 +9,7 @@ class Projects extends React.Component {
         return (
         <div className="Projects">
             <h1>Projects</h1>
+            <div className="Projects-container"></div>
         </div>
         )
     }
