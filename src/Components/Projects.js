@@ -12,6 +12,7 @@ import { faGitAlt, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 import google from './Photos/google.png';
+import fb from './Photos/fb.jpg';
 
 class Projects extends React.Component {
     
@@ -19,34 +20,72 @@ class Projects extends React.Component {
         return (
         <div className="Projects">
             <h1>Projects</h1>
-            <div className="Projects-container"></div>
-            <Card style={{ width: '18rem' }} bg='dark'>
-                <Card.Img variant="top" src={google} />
-                <Card.Body>
-                    <Card.Title>Google</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Container>
-                        <Badge bg="light" text="dark" className='p-2 m-2'> HTML5</Badge>
-                        <Badge bg="light" text="dark" className='p-2 m-2'> CSS3</Badge>  
-                        <Badge bg="light" text="dark" className='p-2 m-2'> JavaScript</Badge>    
-                    </Container>
-                    <ul>
-                        <li>
-                        <FontAwesomeIcon icon={faGitAlt} />
-                        </li>
-                        <li>
-                        <FontAwesomeIcon icon={faGlobe} />
-                        </li>
-                        <li>
-                        <FontAwesomeIcon icon={faYoutube} />
-                        </li>
-                    </ul>
-                </Card.Body>
-            </Card>
+            <div className="Projects-container">
+                <Card style={{ width: '18rem' }} bg='dark'>
+                    <Card.Img variant="top" src={google} />
+                    <Card.Body>
+                        <Card.Title>Google</Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                        </Card.Text>
+                        <Container>
+                            <Badge bg="light" text="dark" className='m-1'> HTML5</Badge>
+                            <Badge bg="light" text="dark" className='m-1'> CSS3</Badge>  
+                            <Badge bg="light" text="dark" className='m-1'> JavaScript</Badge>  
+                            <Badge bg="light" text="dark" className='m-1'> React</Badge> 
+                            <Badge bg="light" text="dark" className='m-1'> Bootstrap</Badge> 
+                            <Badge bg="light" text="dark" className='m-1'> FontAwesome</Badge>   
+                        </Container>
+                        <div className='icons'>
+                            <ul>
+                                <li><a href='https://github.com/marijahavaic'>
+                                <FontAwesomeIcon icon={faGitAlt} /></a>
+                                </li>
+                                <li><a href='https://www.google.com/'>
+                                <FontAwesomeIcon icon={faGlobe} /></a>
+                                </li>
+                                <li>
+                                <a href='https://github.com/marijahavaic'>
+                                <FontAwesomeIcon icon={faYoutube} /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </Card.Body>
+                </Card>
 
+                <Card style={{ width: '18rem' }} bg='dark'>
+                    <Card.Img variant="top" src={fb} />
+                    <Card.Body>
+                        <Card.Title>Google</Card.Title>
+                        <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of
+                        the card's content.
+                        </Card.Text>
+                        <Container>
+                            <Badge bg="light" text="dark" className='m-1'> HTML5</Badge>
+                            <Badge bg="light" text="dark" className='m-1'> CSS3</Badge>  
+                            <Badge bg="light" text="dark" className='m-1'> JavaScript</Badge>  
+                            <Badge bg="light" text="dark" className='m-1'> React</Badge> 
+                            <Badge bg="light" text="dark" className='m-1'> Bootstrap</Badge>   
+                        </Container>
+                        <div className='icons'>
+                            <ul>
+                                <li><a href='https://github.com/marijahavaic'>
+                                <FontAwesomeIcon icon={faGitAlt} /></a>
+                                </li>
+                                <li><a href='https://www.google.com/'>
+                                <FontAwesomeIcon icon={faGlobe} /></a>
+                                </li>
+                                <li>
+                                <a href='https://github.com/marijahavaic'>
+                                <FontAwesomeIcon icon={faYoutube} /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </Card.Body>
+                </Card>
+            </div>
         </div>
         )
     }
