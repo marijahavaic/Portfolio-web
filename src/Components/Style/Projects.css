@@ -6,12 +6,6 @@
     
 }
 
-.Projects-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
 .icons ul {
     list-style-type: none;
     display: flex;
