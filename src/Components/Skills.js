@@ -36,7 +36,7 @@ class Skills extends React.Component {
                         </li>
                         <li>
                         <FontAwesomeIcon icon={faBootstrap} />
-                        <p>Bootstrap 6</p>
+                        <p>Bootstrap 5</p>
                         </li>
                         <li>
                         <FontAwesomeIcon icon={faFontAwesome} />
