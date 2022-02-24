@@ -14,7 +14,7 @@ class Skills extends React.Component {
     render() { 
         return (
         <div className="Skills">
-            <Container className="justify-content-center align-items-center text-center">
+            <Container className="justify-content-center align-items-center text-center mb-5 pb-5">
                 <Row xs={1} md={2}>
                     <Col>
                         <Container className="justify-content-center align-items-center"  >
