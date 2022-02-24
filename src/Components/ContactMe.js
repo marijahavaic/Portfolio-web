@@ -10,8 +10,8 @@ class ContactMe extends React.Component {
     
     render() { 
         return (
-        <div className="ContactMe">
-             <Form>
+        <div className="ContactMe d-flex flex-column justify-content-center align-items-center">
+             <Form className='w-75'>
                  <h1 className='text-center'>Contact Me</h1>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Email address</Form.Label>
@@ -24,7 +24,7 @@ class ContactMe extends React.Component {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
-                </Form>
+            </Form>
         </div>
         )
     }
