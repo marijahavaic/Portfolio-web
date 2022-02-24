@@ -18,38 +18,38 @@ class Skills extends React.Component {
                 <Row xs={1} md={2}>
                     <Col>
                         <Container className="justify-content-center align-items-center"  >
-                            <h1>Front-End</h1>
+                            <h1 className='mb-4'>Front-End</h1>
                             <Row xs={2} md={3} lg={5}  >
                                 <Col>
-                                    <FontAwesomeIcon icon={faHtml5} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faHtml5} style={{fontSize: '2.25rem'}}/>
                                     <p>HTML 5</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faCss3Alt} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faCss3Alt} style={{fontSize: '2.25rem'}}/>
                                     <p>CSS 3</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faJs} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faJs} style={{fontSize: '2.25rem'}}/>
                                     <p>JavaScript</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faReact} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faReact} style={{fontSize: '2.25rem'}}/>
                                     <p>React JS</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faRoute} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faRoute} style={{fontSize: '2.25rem'}}/>
                                     <p>React Router</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faBootstrap} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faBootstrap} style={{fontSize: '2.25rem'}}/>
                                     <p>Bootstrap 5</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faFontAwesome} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faFontAwesome} style={{fontSize: '2.25rem'}}/>
                                     <p>FontAwesome</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faClone} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faClone} style={{fontSize: '2.25rem'}}/>
                                     <p>Material UI</p>
                                 </Col>
                             </Row>
@@ -57,26 +57,26 @@ class Skills extends React.Component {
                     </Col>
                     <Col>
                         <Container className="justify-content-center align-items-center"  >
-                            <h1>Design</h1>
+                            <h1 className='mb-4'>Design</h1>
                             <Row xs={2} md={3} lg={5}  >
                                 <Col>
-                                    <FontAwesomeIcon icon={faFigma} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faFigma} style={{fontSize: '2.25rem'}}/>
                                     <p>Figma</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faObjectGroup} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faObjectGroup} style={{fontSize: '2.25rem'}}/>
                                     <p>Adobe XD</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faImage} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faImage} style={{fontSize: '2.25rem'}}/>
                                     <p>Photoshop</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faImages} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faImages} style={{fontSize: '2.25rem'}}/>
                                     <p>Lightroom</p>
                                 </Col>
                                 <Col>
-                                    <FontAwesomeIcon icon={faPencilRuler} style={{fontSize: '3rem'}}/>
+                                    <FontAwesomeIcon icon={faPencilRuler} style={{fontSize: '2.25rem'}}/>
                                     <p>Illustrator</p>
                                 </Col>
                             </Row>
