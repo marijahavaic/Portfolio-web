@@ -1,16 +1,10 @@
 .Projects {
-    height: 70vh;
     padding:30px 100px 0 100px;
     background-color: #212529;
     color: aliceblue;
     
 }
 
-.Projects-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
 
 .icons ul {
     list-style-type: none;
