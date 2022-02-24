@@ -6,11 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Badge from 'react-bootstrap/Badge';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-<<<<<<< HEAD
-=======
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
->>>>>>> feature/projects-section
 import Carousel from 'react-bootstrap/Carousel';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -27,10 +24,6 @@ class Projects extends React.Component {
         <div className="Projects">
             <Container className="justify-content-center align-items-center" fluid>
             <h1>Projects</h1>
-<<<<<<< HEAD
-            <div className="Projects-container">
-                <Carousel className='justify-content-center'>
-=======
                 <Row xs={1} md={2} lg={3}  >
                     <Col>
                     <Card style={{ width: '20rem' }} bg='dark'  className='mb-5'>
@@ -137,7 +130,6 @@ class Projects extends React.Component {
 
                 {/* Mobile version */}
                 {/* <Carousel className='justify-content-center'>
->>>>>>> feature/projects-section
                     <Carousel.Item>
                         <Card style={{ width: '18rem' }} bg='dark'>
                             <Card.Img variant="top" src={google} />
@@ -205,12 +197,7 @@ class Projects extends React.Component {
                         </Card.Body>
                     </Card>
                     </Carousel.Item>
-<<<<<<< HEAD
-                </Carousel>
-            </div>
-=======
                 </Carousel> */}
->>>>>>> feature/projects-section
         </div>
         )
     }
