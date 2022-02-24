@@ -1,14 +1,11 @@
 .AboutMe {
-    height: 50vh;
-    padding:30px 100px 0 100px;
-    background-color: #212529;
-    color: aliceblue;
-    display: flex;
+    height: 100vh;
+    /* display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-start; */
 }
 
-.image-container {
+/* .image-container {
     max-width: 52%;
     height: auto;
 }
@@ -29,4 +26,4 @@
 .text-container p {
     width: 100%;
     text-align: left;
-}
+} */

@@ -12,13 +12,13 @@ class AboutMe extends React.Component {
     
     render() { 
         return (
-        <div className="AboutMe">
-             <Container className="justify-content-center align-items-center">
-                <Row xs={1} md={2}>
-                    <Col>
-                        <img className='image' src={portfolio_undraw}/>
+        <div className="AboutMe d-flex justify-content-center align-items-flex-end pt-5 mt-5">
+             <Container className='pt-5 mt-5'>
+                <Row xs={1} md={1} lg={2}>
+                    <Col className='w-50'>
+                        <img className='image' src={portfolio_undraw} className='w-100 h-100'/>
                     </Col>
-                    <Col className="align-self-center">
+                    <Col className="align-self-center w-50">
                         <h1>Hi, I am Marija</h1>
                      <p>
                         A passonate self-taught Front-End Developer. Having an experience of building Web applications with JavaScript and Reactjs and some other cool libraries and frameworks. 
