@@ -24,42 +24,43 @@ class Projects extends React.Component {
         <div className="Projects">
             <Container className="justify-content-center align-items-center" fluid>
             <h1>Projects</h1>
-                <Row xs={1} md={2} lg={3}  >
+                <Row xs={1} md={2} lg={3} className="justify-content-center align-items-center">
                     <Col>
-                    <Card style={{ width: '20rem' }} bg='dark'  className='mb-5'>
-                            <Card.Img variant="top" src={google} />
-                            <Card.Body>
-                                <Card.Title>Google</Card.Title>
-                                <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
-                                <Container>
-                                    <Badge bg="light" text="dark" className='m-1'> HTML5</Badge>
-                                    <Badge bg="light" text="dark" className='m-1'> CSS3</Badge>  
-                                    <Badge bg="light" text="dark" className='m-1'> JavaScript</Badge>  
-                                    <Badge bg="light" text="dark" className='m-1'> React</Badge> 
-                                    <Badge bg="light" text="dark" className='m-1'> Bootstrap</Badge> 
-                                    <Badge bg="light" text="dark" className='m-1'> FontAwesome</Badge>   
-                                </Container>
-                                <div className='icons'>
-                                    <ul>
-                                        <li><a href='https://github.com/marijahavaic'>
-                                        <FontAwesomeIcon icon={faGitAlt} /></a>
-                                        </li>
-                                        <li><a href='https://www.google.com/'>
-                                        <FontAwesomeIcon icon={faGlobe} /></a>
-                                        </li>
-                                        <li>
-                                        <a href='https://github.com/marijahavaic'>
-                                        <FontAwesomeIcon icon={faYoutube} /></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </Card.Body>
-                        </Card>
+                        <Card style={{ width: '20rem' }} bg='dark'  className='mb-5'>
+                                <Card.Img variant="top" src={google} />
+                                <Card.Body>
+                                    <Card.Title>Google</Card.Title>
+                                    <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                    </Card.Text>
+                                    <Container>
+                                        <Badge bg="light" text="dark" className='m-1'> HTML5</Badge>
+                                        <Badge bg="light" text="dark" className='m-1'> CSS3</Badge>  
+                                        <Badge bg="light" text="dark" className='m-1'> JavaScript</Badge>  
+                                        <Badge bg="light" text="dark" className='m-1'> React</Badge> 
+                                        <Badge bg="light" text="dark" className='m-1'> Bootstrap</Badge> 
+                                        <Badge bg="light" text="dark" className='m-1'> FontAwesome</Badge>   
+                                    </Container>
+                                    <div className='icons'>
+                                        <ul>
+                                            <li><a href='https://github.com/marijahavaic'>
+                                            <FontAwesomeIcon icon={faGitAlt} /></a>
+                                            </li>
+                                            <li><a href='https://www.google.com/'>
+                                            <FontAwesomeIcon icon={faGlobe} /></a>
+                                            </li>
+                                            <li>
+                                            <a href='https://github.com/marijahavaic'>
+                                            <FontAwesomeIcon icon={faYoutube} /></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </Card.Body>
+                            </Card>
                         </Col>
-                    <Col><Card style={{ width: '20rem' }} bg='dark' className='mb-5'>
+                    <Col>
+                        <Card style={{ width: '20rem' }} bg='dark' className='mb-5'>
                         <Card.Img variant="top" src={fb} />
                         <Card.Body>
                             <Card.Title>Google</Card.Title>
@@ -89,7 +90,8 @@ class Projects extends React.Component {
                                 </ul>
                             </div>
                         </Card.Body>
-                    </Card></Col>
+                     </Card>
+                    </Col>
                     <Col>
                     <Card style={{ width: '20rem' }} bg='dark' className='mb-5'>
                             <Card.Img variant="top" src={google} />
