@@ -33,8 +33,8 @@ class Projects extends React.Component {
                                     <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
-                                    </Card.Text>
-                                    <Container>
+                                    
+                                    <Container className='pt-3 pb-3'>
                                         <Badge bg="light" text="dark" className='m-1'> HTML5</Badge>
                                         <Badge bg="light" text="dark" className='m-1'> CSS3</Badge>  
                                         <Badge bg="light" text="dark" className='m-1'> JavaScript</Badge>  
@@ -42,20 +42,20 @@ class Projects extends React.Component {
                                         <Badge bg="light" text="dark" className='m-1'> Bootstrap</Badge> 
                                         <Badge bg="light" text="dark" className='m-1'> FontAwesome</Badge>   
                                     </Container>
-                                    <div className='icons'>
-                                        <ul>
-                                            <li><a href='https://github.com/marijahavaic'>
-                                            <FontAwesomeIcon icon={faGitAlt} /></a>
-                                            </li>
-                                            <li><a href='https://www.google.com/'>
-                                            <FontAwesomeIcon icon={faGlobe} /></a>
-                                            </li>
-                                            <li>
-                                            <a href='https://github.com/marijahavaic'>
-                                            <FontAwesomeIcon icon={faYoutube} /></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <Container>
+                                        <Row xs={2} md={3} lg={5} className="d-flex justify-content-center align-items-center">
+                                            <Col>
+                                                <FontAwesomeIcon icon={faGitAlt} style={{fontSize: '2.5rem'}}  />
+                                            </Col>
+                                            <Col>
+                                                <FontAwesomeIcon icon={faGlobe} style={{fontSize: '2.5rem'}}  />
+                                            </Col>
+                                            <Col>
+                                                <FontAwesomeIcon icon={faYoutube} style={{fontSize: '2.5rem'}}  />
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                    </Card.Text>
                                 </Card.Body>
                             </Card>
                         </Col>
