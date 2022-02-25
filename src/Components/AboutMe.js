@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 import portfolio_undraw from './Photos/portfolio_undraw.svg'
 
@@ -36,6 +37,9 @@ class AboutMe extends React.Component {
                                 </Col>
                             </Row>
                         </Container> 
+                        <Button variant="primary" type="submit" className='mt-3'>
+                            Download CV
+                        </Button>
                     </Col>
                 </Row>
             </Container>
