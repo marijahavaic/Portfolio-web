@@ -8,6 +8,9 @@ import Col from 'react-bootstrap/Col';
 
 import portfolio_undraw from './Photos/portfolio_undraw.svg'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGitAlt, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 class AboutMe extends React.Component {
     
     render() { 
@@ -23,6 +26,16 @@ class AboutMe extends React.Component {
                      <p>
                         A passonate self-taught Front-End Developer. Having an experience of building Web applications with JavaScript and Reactjs and some other cool libraries and frameworks. 
                      </p>
+                        <Container className="justify-content-center align-items-center"  >
+                            <Row xs={2} md={3} lg={5}  >
+                                <Col>
+                                    <FontAwesomeIcon icon={faGitAlt} style={{fontSize: '2.25rem'}}/>
+                                </Col>
+                                <Col>
+                                    <FontAwesomeIcon icon={faLinkedin} style={{fontSize: '2.25rem'}}/>
+                                </Col>
+                            </Row>
+                        </Container> 
                     </Col>
                 </Row>
             </Container>
