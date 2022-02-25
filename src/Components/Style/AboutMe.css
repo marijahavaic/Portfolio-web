@@ -28,14 +28,3 @@
     text-align: left;
 } */
 
-/* <Container className="justify-content-center align-items-center"  >
-                                            <h1 className='mb-4'>Design</h1>
-                                            <Row xs={2} md={3} lg={5}  >
-                                                <Col>
-                                                    <FontAwesomeIcon icon={faGitAlt} style={{fontSize: '2.25rem'}}/>
-                                                </Col>
-                                                <Col>
-                                                    <FontAwesomeIcon icon={faLinkedin} style={{fontSize: '2.25rem'}}/>
-                                                </Col>
-                                            </Row>
-                                        </Container> */
