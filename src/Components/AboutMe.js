@@ -30,7 +30,7 @@ class AboutMe extends React.Component {
                         <Container className="d-flex justify-content-center align-items-center"  >
                             <Row xs={2} md={3} lg={5}  >
                                 <Col>
-                                    <FontAwesomeIcon icon={faGitAlt} style={{fontSize: '2.25rem'}}/>
+                                    <FontAwesomeIcon icon={faGitAlt} style={{fontSize: '2.25rem'}} className="pr-1" />
                                 </Col>
                                 <Col>
                                     <FontAwesomeIcon icon={faLinkedin} style={{fontSize: '2.25rem'}}/>
