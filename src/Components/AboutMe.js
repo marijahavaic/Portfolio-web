@@ -27,19 +27,23 @@ class AboutMe extends React.Component {
                      <p>
                         A passonate self-taught Front-End Developer. Having an experience of building Web applications with JavaScript and Reactjs and some other cool libraries and frameworks. 
                      </p>
-                        <Container className="d-flex justify-content-center align-items-center"  >
+                        <Container className="d-flex flex-column justify-content-center align-items-center"  >
                             <Row xs={2} md={3} lg={5}  >
-                                <Col>
-                                    <FontAwesomeIcon icon={faGitAlt} style={{fontSize: '2.25rem'}} className="pr-1" />
+                                <Col className='m-1'>
+                                    <FontAwesomeIcon icon={faGitAlt} style={{fontSize: '2.25rem'}} />
                                 </Col>
-                                <Col>
+                                <Col className='m-1'>
                                     <FontAwesomeIcon icon={faLinkedin} style={{fontSize: '2.25rem'}}/>
                                 </Col>
                             </Row>
+                            <Row>
+                                <Col>
+                                    <Button variant="primary" type="submit" className='mt-3'>
+                                    Download CV
+                                    </Button>
+                                </Col>
+                            </Row>
                         </Container> 
-                        <Button variant="primary" type="submit" className='mt-3'>
-                            Download CV
-                        </Button>
                     </Col>
                 </Row>
             </Container>
