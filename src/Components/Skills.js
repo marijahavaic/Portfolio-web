@@ -63,7 +63,7 @@ class Skills extends React.Component {
                                     <FontAwesomeIcon icon={faFigma} style={{fontSize: '2.25rem'}}/>
                                     <p>Figma</p>
                                 </Col>
-                                <Col>
+                                <Col>c
                                     <FontAwesomeIcon icon={faObjectGroup} style={{fontSize: '2.25rem'}}/>
                                     <p>Adobe XD</p>
                                 </Col>
