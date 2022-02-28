@@ -20,7 +20,8 @@ class NavBar extends React.Component {
                     </Nav>                    
                     <Nav>
                         <Nav.Link href="#aboutme">About</Nav.Link>
-                        <Nav.Link href="#deets">Projects</Nav.Link>
+                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#contactme">Contact me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
