@@ -12,7 +12,7 @@ class ContactMe extends React.Component {
         return (
         <div className="ContactMe d-flex flex-column justify-content-center align-items-center">
              <Form className='w-75'>
-                 <h1 className='text-center'>Contact Me</h1>
+                 <h1 className='text-center'><a id='contactme'>Contact Me</a></h1>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="name@example.com" />

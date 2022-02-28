@@ -16,7 +16,7 @@ class AboutMe extends React.Component {
     
     render() { 
         return (
-        <div className="AboutMe d-flex justify-content-center align-items-flex-end pt-5 mt-5">
+        <div className="AboutMe d-flex justify-content-center align-items-flex-end pt-5 mt-5"><a id="aboutme">
              <Container className='pt-5 mt-5'>
                 <Row xs={1} md={1} lg={2}>
                     <Col className='w-50'>
@@ -47,6 +47,7 @@ class AboutMe extends React.Component {
                     </Col>
                 </Row>
             </Container>
+            </a>
         </div>
         )
     }

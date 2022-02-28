@@ -23,7 +23,7 @@ class Projects extends React.Component {
         return (
         <div className="Projects d-flex flex-column justify-content-center align-items-center mt-5 pt-5 mb-5 pb-5">
             <Container className="d-flex flex-column justify-content-center align-items-center" fluid>
-            <h1 className='p-3'>Projects</h1>
+            <h1 className='p-3'><a id="projects">Projects</a></h1>
                 <Row xs={1} md={2} lg={3} className="justify-content-center align-items-center">
                     <Col>
                         <Card style={{ width: '20rem' }} bg='dark'  className='mb-5'>

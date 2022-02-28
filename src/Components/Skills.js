@@ -15,6 +15,7 @@ class Skills extends React.Component {
         return (
         <div className="Skills">
             <Container className="justify-content-center align-items-center text-center mb-5 pb-5">
+                <h1><a id="skills">Skills</a></h1>
                 <Row xs={1} md={2}>
                     <Col>
                         <Container className="justify-content-center align-items-center"  >
