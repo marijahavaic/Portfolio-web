@@ -27,11 +27,11 @@ class NavBar extends React.Component {
                     </Nav>
                 </Navbar.Collapse>
                 <Form className='position-absolute top-0 end-0'>
-        <Form.Check 
-            type="switch"
-            id="custom-switch"
-        />
-      </Form>
+                    <Form.Check 
+                        type="switch"
+                        id="custom-switch"
+                    />
+                </Form>
                 </Container>
             </Navbar>
         </div>
