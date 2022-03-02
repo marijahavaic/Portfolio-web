@@ -19,6 +19,7 @@ class ProjectContainer extends React.Component {
       
         return (
         <div>
+            <Col className='d-flex justify-content-center'>
             <Card style={{ width: '20rem' }} bg='dark'  className='mb-5'>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
@@ -44,7 +45,7 @@ class ProjectContainer extends React.Component {
                     </Container>
                 </Card.Body>
             </Card>  
-
+        </Col>
         </div>
         )   
     }
