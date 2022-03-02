@@ -12,7 +12,7 @@ class NavBar extends React.Component {
     render() { 
         return (
         <div className="NavBar">
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='pt-3'>
                 <Container>
                 <Navbar.Brand href="#home" id="home">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
