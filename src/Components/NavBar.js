@@ -14,7 +14,7 @@ class NavBar extends React.Component {
         <div className="NavBar">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                <Navbar.Brand href="#home">Home</Navbar.Brand>
+                <Navbar.Brand href="#home" id="home">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="basic-nav-dropdown">
                 <Nav className='me-auto'>

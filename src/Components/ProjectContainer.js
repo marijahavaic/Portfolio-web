@@ -31,7 +31,7 @@ class ProjectContainer extends React.Component {
                         ))} 
                     </div>
                     <Container>
-                        <Row xs={2} md={3} lg={5} className="d-flex justify-content-center align-items-center">
+                        <Row xs={2} md={3} lg={4} className="d-flex justify-content-center align-items-center">
                             {icons.map((icon, i) =>
                                  (
                                     <Col>
