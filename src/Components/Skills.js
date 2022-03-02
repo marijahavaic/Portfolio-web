@@ -19,7 +19,7 @@ class Skills extends React.Component {
                 <Row xs={1} md={2}>
                     <Col>
                         <Container className="justify-content-center align-items-center"  >
-                            <h1 className='mb-4'>Front-End</h1>
+                            <h2 className='mb-4'>Front-End</h2>
                             <Row xs={2} md={3} lg={5}  >
                                 <Col>
                                     <FontAwesomeIcon icon={faHtml5} style={{fontSize: '2.25rem'}}/>
@@ -58,7 +58,7 @@ class Skills extends React.Component {
                     </Col>
                     <Col>
                         <Container className="justify-content-center align-items-center"  >
-                            <h1 className='mb-4'>Design</h1>
+                            <h2 className='mb-4'>Design</h2>
                             <Row xs={2} md={3} lg={5}  >
                                 <Col>
                                     <FontAwesomeIcon icon={faFigma} style={{fontSize: '2.25rem'}}/>
