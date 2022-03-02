@@ -18,6 +18,7 @@ import { faGlobe, faArrowUp } from '@fortawesome/free-solid-svg-icons'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/esm/Container';
+import Form from 'react-bootstrap/Form'
 
 class App extends React.Component  {
   static defaultProps = {
@@ -26,17 +27,34 @@ class App extends React.Component  {
   ]
   }
 
+//   constructor(props) {
+//     super(props);
+//     this.handleClick = this.handleClick.bind(this);
+// }
+
+//   handleClick(e) {
+
+//   }
+
   render() {
     return (
       <div className="App">
         <NavBar />
+        <Container className='h-100 d-flex justify-content-end'>
+          <Form className='position-absolute top-0 end-0 mt-1'>
+              <Form.Check 
+                  type="switch"
+                  id="custom-switch"
+              />
+          </Form>
+        </Container>
         
         <AboutMe />
 
-        <Container className='h-100 d-flex justify-content-end'>
-          <Button variant="light" className='position-fixed bottom-0 right-1 mb-3'>
-            <a href="#home"><FontAwesomeIcon icon={faArrowUp} style={{fontSize: '1rem'}} /></a>
-          </Button>
+        <Container className='h-100 d-flex justify-content-end pe-5'>
+        <a href="#home"><Button variant="light" className='position-fixed bottom-0 mb-3' onClick={'#home'}>
+            <FontAwesomeIcon icon={faArrowUp} style={{fontSize: '1rem'}} />
+          </Button></a>
         </Container>
         
         <Skills />

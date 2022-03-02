@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form'
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,12 +26,7 @@ class NavBar extends React.Component {
                         <Nav.Link href="#contactme">Contact me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <Form className='position-absolute top-0 end-0'>
-                    <Form.Check 
-                        type="switch"
-                        id="custom-switch"
-                    />
-                </Form>
+                
                 </Container>
             </Navbar>
         </div>
