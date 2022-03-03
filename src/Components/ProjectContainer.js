@@ -14,13 +14,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class ProjectContainer extends React.Component {
     render() { 
-        let {key, image, title, text, badges, icons } = this.props;
-        // console.log(image, title, text, badges, icons);
-      
+        let {key, image, title, text, badges, icons } = this.props;     
         return (
         <div>
             <Col className='d-flex justify-content-center'>
-            <Card style={{ width: '20rem' }} bg='dark'  className='mb-5'>
+            <Card style={{ width: '20rem' }} bg='dark'  className='mb-5' key={key}>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>

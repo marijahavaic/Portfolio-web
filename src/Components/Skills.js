@@ -17,7 +17,6 @@ class Skills extends React.Component {
             <Container className="justify-content-center align-items-center text-center mb-5 pb-5">
                 <h1><a id="skills">Skills</a></h1>
                 <Row xs={1} md={2}>
-                     
                         {
                             skills_container.map((skills_container, i) => (
                             <Col>
@@ -26,8 +25,8 @@ class Skills extends React.Component {
                                     <Row xs={2} md={3} lg={5}  >
                                         {
                                             skills_container.skills.map((skill, i) => (
-                                                <Col>
-                                                    <FontAwesomeIcon icon={skill.icon} style={{fontSize: '2.25rem'}}/>
+                                                <Col key={i}>
+                                                    <FontAwesomeIcon icon={skill.icon} style={{fontSize: '2.25rem'}} />
                                                     <p>{skill.name}</p>
                                                 </Col>
                                             ))

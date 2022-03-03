@@ -18,9 +18,9 @@ class Projects extends React.Component {
             <Container className='d-flex flex-column justify-content-center align-items-center mt-5 pt-5 mb-5 pb-5' fluid>
             <h1 className='p-3'><a id="projects">Projects</a></h1>
                 <Row xs={1} md={2} lg={3}  className='d-flex justify-content-center align-items-center'>
-                    {projects.map((project) => (
+                    {projects.map((project, i) => (
                        <ProjectContainer
-                            key={project.key}
+                            key={i}
                             image={project.image}
                             title={project.title}
                             text={project.text}
