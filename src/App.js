@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './sass/App.scss';
 
 import NavBar from './Components/NavBar';
 import AboutMe from './Components/AboutMe';
@@ -30,25 +30,35 @@ class App extends React.Component  {
     skills_container: [{name:'Front-End', skills: [{icon: faHtml5, name: 'HTML5'}, {icon: faCss3Alt, name: 'CSS3'}, {icon: faJs, name: 'JavaScript'}, {icon: faReact, name: 'React JS'}, {icon: faRoute, name: 'React Router'}, {icon: faBootstrap, name: 'Bootstrap5'}, {icon: faFontAwesome, name: 'FontAwesome'}, {icon: faClone, name: 'MeaterialUI'}]}, {name: 'Design', skills:[{icon: faFigma, name: 'Figma'}, {icon: faObjectGroup, name: 'Adobe XD'}, {icon: faImage, name: 'Photoshop'}, {icon: faImages, name: 'Lightroom'}, {icon: faPencilRuler, name: 'Illustrator'}]}],
   }
 
-//   constructor(props) {
-//     super(props);
-//     this.handleClick = this.handleClick.bind(this);
-// }
+  constructor(props) {
+    super(props);
+    this.state = {
+      ligthMode: true
+    }
+    this.handleToggle = this.handleToggle.bind(this);
+  }
 
-//   handleClick(e) {
 
-//   }
+
+  handleToggle() {
+    this.setState({
+      lightMode: !this.state.ligthMode
+    })
+  }
 
   render() {
     return (
-      <div className="App">
+      <div className={`App ${this.state.lightMode ? "Light-mode" : "Dark-mode"}`}>
         <NavBar />
         <Container className='h-100 d-flex justify-content-end'>
           <Form className='position-absolute top-0 end-0 mt-1'>
-              <Form.Check 
+              <Form.Switch
+                  onChange={this.handleToggle}
                   type="switch"
-                  id="custom-switch"
+                  id="custom-switch"    
+                  // checked={this.handleToggle}
               />
+              { this.state.lightMode ? "Light-mode":"Dark-mode" }
           </Form>
         </Container>
         
