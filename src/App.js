@@ -123,6 +123,7 @@ class App extends React.Component {
         this.setState({
             lightMode: !this.state.ligthMode,
         });
+        console.log(this.state.ligthMode);
     }
 
     render() {
@@ -136,12 +137,11 @@ class App extends React.Component {
                 <Container className="h-100 d-flex justify-content-end">
                     <Form className="position-absolute top-0 end-0 mt-1">
                         <Form.Switch
-                            checked={true}
+                            // toggled={this.state.ligthMode}
                             onChange={this.handleToggle}
                             type="switch"
                             id="custom-switch"
                         />
-                        {this.state.lightMode ? "Light-mode" : "Dark-mode"}
                     </Form>
                 </Container>
 

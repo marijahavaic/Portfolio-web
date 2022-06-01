@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-// import portfolio_undraw from "./Photos/portfolio_undraw.svg";
+import portfolio_undraw from "./Photos/portfolio_undraw.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -20,10 +20,10 @@ class AboutMe extends React.Component {
                     <Container className="pt-5 mt-5">
                         <Row xs={1} md={1} lg={2}>
                             <Col className="w-50">
-                                {/* <img
+                                <img
                                     className="image w-100 h-100"
                                     src={portfolio_undraw}
-                                /> */}
+                                />
                             </Col>
                             <Col className="align-self-center w-50">
                                 <h1>Hi, I am Marija</h1>
