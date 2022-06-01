@@ -8,30 +8,8 @@ import Projects from "./Components/Projects";
 import ContactMe from "./Components/ContactMe";
 import Footer from "./Components/Footer";
 
-import lyrics from "./Components/Photos/lyrics.png";
-import notestodo from "./Components/Photos/notestodo.png";
-import form from "./Components/Photos/form.png";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faGlobe, faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import {
-    faHtml5,
-    faCss3Alt,
-    faJs,
-    faBootstrap,
-    faFontAwesome,
-    faReact,
-    faFigma,
-} from "@fortawesome/free-brands-svg-icons";
-import {
-    faImage,
-    faImages,
-    faObjectGroup,
-    faPencilRuler,
-    faClone,
-    faRoute,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
@@ -39,76 +17,6 @@ import Container from "react-bootstrap/esm/Container";
 import Form from "react-bootstrap/Form";
 
 function App() {
-    const projects = [
-        {
-            key: 1,
-            image: lyrics,
-            title: "Lyrics Search",
-            text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
-            badges: ["HTML5", "CSS3", "Javascript"],
-            icons: [
-                { name: faGithub, src: "github.com" },
-                { name: faYoutube, src: "github" },
-                { name: faGlobe, src: "github" },
-            ],
-        },
-        {
-            key: 2,
-            image: notestodo,
-            title: "Notes Todo App",
-            text: `This is a Notes Todo app in which you can add either a note or a todo, both of which are saved in local storage. This app uses React’s functional components and hooks (useState, useEffect, useContext).`,
-            badges: ["HTML5", "CSS3", "Javascript", "React", "FontAwesome"],
-            icons: [
-                {
-                    name: faGithub,
-                    src: "https://github.com/marijahavaic/notes-todo-app",
-                },
-                { name: faYoutube, src: "github" },
-                { name: faGlobe, src: "github" },
-            ],
-        },
-        {
-            key: 3,
-            image: form,
-            title: "Form App",
-            text: `This is a Form app which uses React state hook form handling and validating React form inputs.`,
-            badges: ["HTML5", "CSS3", "Javascript", "React", "FontAwesome"],
-            icons: [
-                {
-                    name: faGithub,
-                    src: "https://github.com/marijahavaic/form-app",
-                },
-                { name: faYoutube, src: "github" },
-                { name: faGlobe, src: "github" },
-            ],
-        },
-    ];
-    const skills_container = [
-        {
-            name: "Front-End",
-            skills: [
-                { icon: faHtml5, name: "HTML5" },
-                { icon: faCss3Alt, name: "CSS3" },
-                { icon: faJs, name: "JavaScript" },
-                { icon: faReact, name: "React JS" },
-                { icon: faRoute, name: "React Router" },
-                { icon: faBootstrap, name: "Bootstrap5" },
-                { icon: faFontAwesome, name: "FontAwesome" },
-                { icon: faClone, name: "MeaterialUI" },
-            ],
-        },
-        {
-            name: "Design",
-            skills: [
-                { icon: faFigma, name: "Figma" },
-                { icon: faObjectGroup, name: "Adobe XD" },
-                { icon: faImage, name: "Photoshop" },
-                { icon: faImages, name: "Lightroom" },
-                { icon: faPencilRuler, name: "Illustrator" },
-            ],
-        },
-    ];
-
     const [darkMode, setDarkMode] = useState(false);
 
     const handleToggle = () => {
@@ -144,9 +52,9 @@ function App() {
                 </a>
             </Container>
 
-            <Skills skills_container={skills_container} darkMode={darkMode} />
+            <Skills darkMode={darkMode} />
 
-            <Projects projects={projects} darkMode={darkMode} />
+            <Projects darkMode={darkMode} />
 
             <ContactMe />
 

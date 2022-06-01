@@ -1,5 +1,8 @@
 import React from "react";
 import "./Style/Projects.css";
+
+import { projects } from "../projectsDetails";
+
 import ProjectContainer from "./ProjectContainer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,8 +11,6 @@ import Row from "react-bootstrap/Row";
 
 class Projects extends React.Component {
     render() {
-        let { projects } = this.props;
-
         return (
             <div className="Projects">
                 <Container
