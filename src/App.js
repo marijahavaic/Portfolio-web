@@ -52,7 +52,7 @@ function App() {
                 </a>
             </Container>
 
-            <Skills darkMode={darkMode} />
+            <Skills />
 
             <Projects darkMode={darkMode} />
 
