@@ -1,5 +1,6 @@
 $light-color: aliceblue;
 $dark-color: #212529;
+$third-color: #f3b700;
 
 .Dark-mode {
     background-color: $dark-color;
@@ -86,4 +87,5 @@ input:checked + .slider:before {
 :export{
   light-color: $light-color;
   dark-color: $dark-color;
+  third-color: $third-color
 }

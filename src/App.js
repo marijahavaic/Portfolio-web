@@ -14,7 +14,6 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/esm/Container";
-import Form from "react-bootstrap/Form";
 
 function App() {
     const [darkMode, setDarkMode] = useState(false);

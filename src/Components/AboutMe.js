@@ -1,6 +1,8 @@
 import React from "react";
 import "./Style/AboutMe.css";
 
+import "../sass/App.scss";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -50,7 +52,10 @@ const AboutMe = () => {
                                 <Row>
                                     <Col>
                                         <Button
-                                            variant="primary"
+                                            style={{
+                                                backgroundColor: "#f3b700",
+                                                border: "none",
+                                            }}
                                             type="submit"
                                             className="mt-3"
                                         >
