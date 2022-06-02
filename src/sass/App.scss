@@ -1,11 +1,14 @@
+$light-color: aliceblue;
+$dark-color: #212529;
+
 .Dark-mode {
-    background-color: #212529;
-    color: aliceblue;
+    background-color: $dark-color;
+    color: $light-color;
 }
 
 .Light-mode {
-    background-color: aliceblue;
-    color: #212529;
+    background-color: $light-color;
+    color: $dark-color;
 }
 
 /* The switch - the box around the slider */
@@ -78,4 +81,9 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+:export{
+  light-color: $light-color;
+  dark-color: $dark-color;
 }

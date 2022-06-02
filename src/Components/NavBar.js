@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../sass/App.scss";
 
 const NavBar = ({ darkMode, handleToggle }) => {
     return (
@@ -14,7 +14,7 @@ const NavBar = ({ darkMode, handleToggle }) => {
                 collapseOnSelect
                 expand="lg"
                 style={{ fontWeight: 400 }}
-                bg={darkMode ? "light" : "dark"}
+                bg={darkMode ? ["light-color"] : ["dark-color"]}
                 variant={darkMode ? "light" : "dark"}
                 className="pt-3"
             >
