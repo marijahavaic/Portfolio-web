@@ -12,8 +12,8 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 50px;
+  height: 20px;
 }
 
 /* Hide default HTML checkbox */
@@ -39,8 +39,8 @@
 .slider:before {
   position: absolute;
   content: "";
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   left: 0px;
   bottom: 4px;
   top: 0;

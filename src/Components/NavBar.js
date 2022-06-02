@@ -18,16 +18,6 @@ const NavBar = ({ darkMode, handleToggle }) => {
                 variant={darkMode ? "light" : "dark"}
                 className="pt-3"
             >
-                <Form className="position-realtive top-0 end-0 p-3">
-                    <label id="switch" className="switch">
-                        <input
-                            type="checkbox"
-                            onChange={handleToggle}
-                            id="slider"
-                        />
-                        <span className="slider round"></span>
-                    </label>
-                </Form>
                 <Container>
                     <Navbar.Brand
                         href="#home"
@@ -44,6 +34,16 @@ const NavBar = ({ darkMode, handleToggle }) => {
                             <Nav.Link href="#skills">Skills</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
                             <Nav.Link href="#contactme">Contact me</Nav.Link>
+                            <Form className="position-realtive top-0 end-0 p-2">
+                                <label id="switch" className="switch">
+                                    <input
+                                        type="checkbox"
+                                        onChange={handleToggle}
+                                        id="slider"
+                                    />
+                                    <span className="slider round"></span>
+                                </label>
+                            </Form>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
