@@ -25,16 +25,7 @@ function App() {
 
     return (
         <div className={`App ${darkMode ? "Light-mode" : "Dark-mode"}`}>
-            <NavBar darkMode={darkMode} />
-            <Container className="h-100 d-flex justify-content-end">
-                <Form className="position-absolute top-0 end-0 mt-1">
-                    <Form.Switch
-                        onChange={handleToggle}
-                        type="switch"
-                        id="custom-switch"
-                    />
-                </Form>
-            </Container>
+            <NavBar darkMode={darkMode} handleToggle={handleToggle} />
 
             <AboutMe />
 
