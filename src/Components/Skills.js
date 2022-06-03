@@ -1,11 +1,14 @@
 import React from "react";
 import "./Style/Skills.css";
 
-import { skills_container } from "../projectsDetails";
+import { web_skills, design_skills } from "../projectsDetails";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
+import web_development from "./Photos/web_development.svg";
+import designer_girl from "./Photos/designer_girl.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -16,15 +19,13 @@ const Skills = () => {
                 <h1>
                     <a id="skills">Skills</a>
                 </h1>
-                <Row xs={1} md={2}>
-                    {skills_container.map((skills_container, i) => (
-                        <Col key={i}>
-                            <Container className="justify-content-center align-items-center">
-                                <h2 className="mb-4">
-                                    {skills_container.name}
-                                </h2>
-                                <Row xs={2} md={3} lg={5}>
-                                    {skills_container.skills.map((skill, i) => (
+                <Row xs={1} md={2} className="pt-3 align-items-center">
+                    <Col className="justify-content-center align-items-center">
+                        <Container>
+                            <h2 className="mb-4">Front - end</h2>
+                            <Row xs={2} md={3} lg={5}>
+                                {web_skills.map((skill, i) => (
+                                    <>
                                         <Col key={i}>
                                             <FontAwesomeIcon
                                                 icon={skill.icon}
@@ -34,11 +35,42 @@ const Skills = () => {
                                             />
                                             <p>{skill.name}</p>
                                         </Col>
-                                    ))}
-                                </Row>
-                            </Container>
-                        </Col>
-                    ))}
+                                    </>
+                                ))}
+                            </Row>
+                        </Container>
+                    </Col>
+                    <Col className="w-50 justify-content-center align-items-center">
+                        <img
+                            src={web_development}
+                            className="image w-75 h-75"
+                        />
+                    </Col>
+                </Row>
+                <Row xs={1} md={2} className="align-items-center">
+                    <Col className="w-50  align-self-center">
+                        <img src={designer_girl} className="image w-75 h-75" />
+                    </Col>
+                    <Col className="align-self-center">
+                        <Container>
+                            <h2 className="mb-4">Design</h2>
+                            <Row xs={2} md={3} lg={5}>
+                                {design_skills.map((skill, i) => (
+                                    <>
+                                        <Col key={i}>
+                                            <FontAwesomeIcon
+                                                icon={skill.icon}
+                                                style={{
+                                                    fontSize: "2.25rem",
+                                                }}
+                                            />
+                                            <p>{skill.name}</p>
+                                        </Col>
+                                    </>
+                                ))}
+                            </Row>
+                        </Container>
+                    </Col>
                 </Row>
             </Container>
         </div>
