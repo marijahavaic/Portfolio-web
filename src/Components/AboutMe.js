@@ -16,17 +16,22 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const AboutMe = () => {
     return (
-        <div className="AboutMe d-flex justify-content-center align-items-flex-end pt-5 mt-5">
+        <div className="AboutMe pt-5 mt-5">
             <a id="aboutme">
                 <Container className="pt-5 mt-5">
-                    <Row xs={1} md={1} lg={2}>
-                        <Col className="w-50">
+                    <Row
+                        xs={1}
+                        md={1}
+                        lg={2}
+                        className="justify-content-xs-center"
+                    >
+                        <Col xs="auto">
                             <img
                                 className="image w-100 h-100"
                                 src={portfolio_undraw}
                             />
                         </Col>
-                        <Col className="align-self-center w-50">
+                        <Col className="align-self-center" xs="auto">
                             <h1>Hi, I am Marija</h1>
                             <p>
                                 A passonate self-taught Front-End Developer.
@@ -35,7 +40,7 @@ const AboutMe = () => {
                                 some other cool libraries and frameworks.
                             </p>
                             <Container className="d-flex flex-column justify-content-center align-items-center">
-                                <Row xs={2} md={3} lg={5}>
+                                <Row>
                                     <Col className="m-1">
                                         <FontAwesomeIcon
                                             icon={faGithub}

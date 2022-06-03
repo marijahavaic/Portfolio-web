@@ -20,53 +20,62 @@ const Skills = () => {
                     <a id="skills">Skills</a>
                 </h1>
                 <Row xs={1} md={2} className="pt-3 align-items-center">
-                    <Col className="justify-content-center align-items-center">
+                    <Col
+                        className="justify-content-center align-items-center"
+                        xs={{ order: "last" }}
+                        md={{ order: "first" }}
+                    >
                         <Container>
                             <h2 className="mb-4">Front - end</h2>
                             <Row xs={2} md={3} lg={5}>
                                 {web_skills.map((skill, i) => (
-                                    <>
-                                        <Col key={i}>
-                                            <FontAwesomeIcon
-                                                icon={skill.icon}
-                                                style={{
-                                                    fontSize: "2.25rem",
-                                                }}
-                                            />
-                                            <p>{skill.name}</p>
-                                        </Col>
-                                    </>
+                                    <Col key={i}>
+                                        <FontAwesomeIcon
+                                            icon={skill.icon}
+                                            style={{
+                                                fontSize: "2.25rem",
+                                            }}
+                                        />
+                                        <p>{skill.name}</p>
+                                    </Col>
                                 ))}
                             </Row>
                         </Container>
                     </Col>
-                    <Col className="w-50 justify-content-center align-items-center">
+                    <Col
+                        className="justify-content-center align-items-center"
+                        xs={{ order: "first" }}
+                        md={{ order: "last" }}
+                    >
                         <img
                             src={web_development}
                             className="image w-75 h-75"
+                            xs="auto"
                         />
                     </Col>
                 </Row>
                 <Row xs={1} md={2} className="align-items-center">
-                    <Col className="w-50  align-self-center">
-                        <img src={designer_girl} className="image w-75 h-75" />
+                    <Col className="justify-content-center align-self-center">
+                        <img
+                            src={designer_girl}
+                            className="image w-50 h-25"
+                            xs="auto"
+                        />
                     </Col>
                     <Col className="align-self-center">
                         <Container>
                             <h2 className="mb-4">Design</h2>
                             <Row xs={2} md={3} lg={5}>
                                 {design_skills.map((skill, i) => (
-                                    <>
-                                        <Col key={i}>
-                                            <FontAwesomeIcon
-                                                icon={skill.icon}
-                                                style={{
-                                                    fontSize: "2.25rem",
-                                                }}
-                                            />
-                                            <p>{skill.name}</p>
-                                        </Col>
-                                    </>
+                                    <Col key={i}>
+                                        <FontAwesomeIcon
+                                            icon={skill.icon}
+                                            style={{
+                                                fontSize: "2.25rem",
+                                            }}
+                                        />
+                                        <p>{skill.name}</p>
+                                    </Col>
                                 ))}
                             </Row>
                         </Container>
