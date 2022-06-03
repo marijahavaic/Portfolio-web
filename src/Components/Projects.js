@@ -25,9 +25,9 @@ const Projects = ({ darkMode }) => {
                     lg={3}
                     className="d-flex justify-content-center align-items-center"
                 >
-                    {projects.map((project, i) => (
+                    {projects.map((project) => (
                         <ProjectContainer
-                            key={i}
+                            key={project.key}
                             image={project.image}
                             title={project.title}
                             text={project.text}

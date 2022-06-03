@@ -18,11 +18,8 @@ const Skills = () => {
                 </h1>
                 <Row xs={1} md={2}>
                     {skills_container.map((skills_container, i) => (
-                        <Col>
-                            <Container
-                                className="justify-content-center align-items-center"
-                                key={i}
-                            >
+                        <Col key={i}>
+                            <Container className="justify-content-center align-items-center">
                                 <h2 className="mb-4">
                                     {skills_container.name}
                                 </h2>

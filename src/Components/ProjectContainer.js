@@ -11,8 +11,8 @@ import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectContainer = ({
-    darkMode,
     key,
+    darkMode,
     image,
     title,
     text,
@@ -20,13 +20,12 @@ const ProjectContainer = ({
     icons,
 }) => {
     return (
-        <div>
+        <div key={key}>
             <Col className="d-flex justify-content-center">
                 <Card
                     style={{ width: "23rem", height: "32rem" }}
                     bg={darkMode ? "light" : "dark"}
                     className="mb-5"
-                    key={key}
                 >
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
@@ -41,10 +40,10 @@ const ProjectContainer = ({
                         <div className="pt-3 pb-3" style={{ height: "5.5rem" }}>
                             {badges.map((badge, i) => (
                                 <Badge
+                                    key={i}
                                     bg={darkMode ? "dark" : "light"}
                                     text={darkMode ? "light" : "dark"}
                                     className="m-1"
-                                    key={i}
                                 >
                                     {" "}
                                     {badge}
@@ -54,8 +53,8 @@ const ProjectContainer = ({
                         <Container variant="bottom">
                             <Row className="d-flex justify-content-center align-items-center">
                                 {icons.map((icon, i) => (
-                                    <Col>
-                                        <a href={icon.link} key={i}>
+                                    <Col key={i}>
+                                        <a href={icon.link}>
                                             <FontAwesomeIcon
                                                 icon={icon.name}
                                                 style={{
