@@ -21,14 +21,17 @@ $third-color: #f3b700;
     }
 }
 
+.icon {
+   cursor: pointer;
+}
+
 .icon a:hover {
   color: $third-color;
   text-decoration: none;
 }
 
-.icon:hover {
+.icon:hover, .skills_icon:hover {
   color: $third-color;
-  cursor: pointer;
 }
 
 .icon:active {
@@ -36,6 +39,9 @@ $third-color: #f3b700;
     transform: scale(0.90);
 }
 
+button:active {
+  transform: scale(0.95);
+}
 
 /* The switch - the box around the slider */
 .switch {

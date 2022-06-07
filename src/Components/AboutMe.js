@@ -41,17 +41,27 @@ const AboutMe = () => {
                             </p>
                             <Container className="d-flex flex-column justify-content-center align-items-center">
                                 <Row>
-                                    <Col className="m-1">
-                                        <FontAwesomeIcon
-                                            icon={faGithub}
-                                            style={{ fontSize: "2.25rem" }}
-                                        />
+                                    <Col className="m-1 icon">
+                                        <a
+                                            href="https://github.com/marijahavaic"
+                                            target="_blank"
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faGithub}
+                                                style={{ fontSize: "2.25rem" }}
+                                            />
+                                        </a>
                                     </Col>
-                                    <Col className="m-1">
-                                        <FontAwesomeIcon
-                                            icon={faLinkedin}
-                                            style={{ fontSize: "2.25rem" }}
-                                        />
+                                    <Col className="m-1 icon">
+                                        <a
+                                            href="https://www.linkedin.com/in/marija-havaic/"
+                                            target="_blank"
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faLinkedin}
+                                                style={{ fontSize: "2.25rem" }}
+                                            />
+                                        </a>
                                     </Col>
                                 </Row>
                                 <Row>
@@ -60,7 +70,9 @@ const AboutMe = () => {
                                             style={{
                                                 backgroundColor: "#f3b700",
                                                 border: "none",
+                                                color: "aliceblue",
                                             }}
+                                            variant="warning"
                                             type="submit"
                                             className="mt-3"
                                         >

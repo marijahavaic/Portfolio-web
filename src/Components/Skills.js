@@ -29,7 +29,7 @@ const Skills = () => {
                             <h2 className="mb-4">Front - end</h2>
                             <Row xs={2} md={3} lg={5}>
                                 {web_skills.map((skill, i) => (
-                                    <Col key={i} className="icon">
+                                    <Col key={i} className="skills_icon">
                                         <FontAwesomeIcon
                                             icon={skill.icon}
                                             style={{
@@ -67,7 +67,7 @@ const Skills = () => {
                             <h2 className="mb-4">Design</h2>
                             <Row xs={2} md={3} lg={5}>
                                 {design_skills.map((skill, i) => (
-                                    <Col key={i} className="icon">
+                                    <Col key={i} className="skills_icon">
                                         <FontAwesomeIcon
                                             icon={skill.icon}
                                             style={{

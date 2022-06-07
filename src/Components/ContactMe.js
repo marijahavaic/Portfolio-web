@@ -30,8 +30,10 @@ const ContactMe = () => {
                     style={{
                         backgroundColor: "#f3b700",
                         border: "none",
+                        color: "aliceblue",
                     }}
                     type="submit"
+                    variant="warning"
                 >
                     Send Email
                 </Button>
