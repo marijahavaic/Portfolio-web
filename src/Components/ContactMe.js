@@ -26,8 +26,14 @@ const ContactMe = () => {
                     <Form.Label>Message</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
+                <Button
+                    style={{
+                        backgroundColor: "#f3b700",
+                        border: "none",
+                    }}
+                    type="submit"
+                >
+                    Send Email
                 </Button>
             </Form>
         </div>

@@ -21,6 +21,20 @@ $third-color: #f3b700;
     }
 }
 
+.icon a:hover {
+  color: $third-color;
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: $third-color;
+  cursor: pointer;
+}
+
+.icon:active {
+    color: $third-color;
+    transform: scale(0.90);
+}
 
 
 /* The switch - the box around the slider */
@@ -93,17 +107,6 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-}
-
-
-
-.icon:hover {
-  color: $third-color;
-  cursor: pointer;
-}
-
-.icon:active {
-  transform: scale(0.90);
 }
 
 
