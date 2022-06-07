@@ -5,12 +5,23 @@ $third-color: #f3b700;
 .Dark-mode {
     background-color: $dark-color;
     color: $light-color;
+    h2 {
+       color: $third-color;
+    }
+    a {
+      color: $light-color;
+    }
 }
 
 .Light-mode {
     background-color: $light-color;
     color: $dark-color;
+    a {
+      color: $dark-color;
+    }
 }
+
+
 
 /* The switch - the box around the slider */
 .switch {
@@ -84,8 +95,21 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+
+
+.icon:hover {
+  color: $third-color;
+  cursor: pointer;
+}
+
+.icon:active {
+  transform: scale(0.90);
+}
+
+
 :export{
   light-color: $light-color;
   dark-color: $dark-color;
   third-color: $third-color
 }
+
