@@ -55,7 +55,7 @@ function App() {
                     </a>
                 </Container>
 
-                <Skills />
+                <Skills t={t} />
 
                 <Projects darkMode={darkMode} />
 

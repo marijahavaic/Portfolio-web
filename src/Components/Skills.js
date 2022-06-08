@@ -12,12 +12,12 @@ import designer_girl from "./Photos/designer_girl.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Skills = () => {
+const Skills = ({ t }) => {
     return (
         <div className="Skills">
             <Container className="justify-content-center align-items-center text-center mb-5 pb-5">
                 <h1>
-                    <a id="skills">Skills</a>
+                    <a id="skills">{t("skills")}</a>
                 </h1>
                 <Row xs={1} md={2} className="pt-3 align-items-center">
                     <Col
@@ -64,7 +64,7 @@ const Skills = () => {
                     </Col>
                     <Col className="align-self-center">
                         <Container>
-                            <h2 className="mb-4">Design</h2>
+                            <h2 className="mb-4">{t("designSkills")}</h2>
                             <Row xs={2} md={3} lg={5}>
                                 {design_skills.map((skill, i) => (
                                     <Col key={i} className="skills_icon">
