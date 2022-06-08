@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-const Projects = ({ darkMode }) => {
+const Projects = ({ darkMode, t }) => {
     return (
         <div className="Projects">
             <Container
@@ -17,7 +17,7 @@ const Projects = ({ darkMode }) => {
                 fluid
             >
                 <h1 className="p-3">
-                    <a id="projects">Projects</a>
+                    <a id="projects">{t("projects")}</a>
                 </h1>
                 <Row
                     xs={1}

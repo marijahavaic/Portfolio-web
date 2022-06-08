@@ -57,11 +57,11 @@ function App() {
 
                 <Skills t={t} />
 
-                <Projects darkMode={darkMode} />
+                <Projects darkMode={darkMode} t={t} />
 
-                <ContactMe />
+                <ContactMe t={t} />
 
-                <Footer />
+                <Footer t={t} />
             </div>
         </Suspense>
     );
