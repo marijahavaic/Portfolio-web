@@ -30,11 +30,19 @@ const NavBar = ({ darkMode, handleToggle, onChange, t }) => {
                     <Navbar.Collapse id="basic-nav-dropdown">
                         <Nav className="me-auto"></Nav>
                         <Nav>
-                            <Nav.Link href="#aboutme">About</Nav.Link>
-                            <Nav.Link href="#skills">Skills</Nav.Link>
-                            <Nav.Link href="#projects">Projects</Nav.Link>
-                            <Nav.Link href="#contactme">Contact me</Nav.Link>
-                            <select name="language" onChange={onChange}>
+                            <Nav.Link href="#aboutme">{t("about")}</Nav.Link>
+                            <Nav.Link href="#skills">{t("skills")}</Nav.Link>
+                            <Nav.Link href="#projects">
+                                {t("projects")}
+                            </Nav.Link>
+                            <Nav.Link href="#contactme">
+                                {t("contactMe")}
+                            </Nav.Link>
+                            <select
+                                name="language"
+                                onChange={onChange}
+                                style={{ borderRadius: "10%", outline: "none" }}
+                            >
                                 <option value="en">English</option>
                                 <option value="fr">French</option>
                                 <option value="cro">Croatian</option>
