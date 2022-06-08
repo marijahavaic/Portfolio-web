@@ -7,7 +7,7 @@ import Form from "react-bootstrap/Form";
 
 import "../sass/App.scss";
 
-const NavBar = ({ darkMode, handleToggle }) => {
+const NavBar = ({ darkMode, handleToggle, onChange, t }) => {
     return (
         <div className="NavBar">
             <Navbar
@@ -24,7 +24,7 @@ const NavBar = ({ darkMode, handleToggle }) => {
                         id="home"
                         style={{ fontSize: "1.25rem", fontWeight: 600 }}
                     >
-                        Home
+                        {t("home")}
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="basic-nav-dropdown">
@@ -34,6 +34,11 @@ const NavBar = ({ darkMode, handleToggle }) => {
                             <Nav.Link href="#skills">Skills</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
                             <Nav.Link href="#contactme">Contact me</Nav.Link>
+                            <select name="language" onChange={onChange}>
+                                <option value="en">English</option>
+                                <option value="fr">French</option>
+                                <option value="cro">Croatian</option>
+                            </select>
                             <Form className="position-realtive top-0 end-0 p-2">
                                 <label id="switch" className="switch">
                                     <input
