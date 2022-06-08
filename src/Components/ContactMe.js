@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Form from "react-bootstrap/Form";
 // import Button from "react-bootstrap/Button";
 
-const ContactMe = () => {
+const ContactMe = ({ t }) => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -36,19 +36,19 @@ const ContactMe = () => {
         <div className="ContactMe d-flex flex-column justify-content-center align-items-center">
             <Form className="w-75" onSubmit={sendEmail} ref={form}>
                 <h1 className="text-center">
-                    <a id="contactme">Contact Me</a>
+                    <a id="contactme">{t("contactMe")}</a>
                 </h1>
                 <Form.Group
                     className="mb-3"
                     controlId="exampleForm.ControlInput1"
                 >
-                    <Form.Label>Name</Form.Label>
+                    <Form.Label>{t("name")}</Form.Label>
                     <Form.Control
                         type="text"
                         placeholder="John Doe"
                         name="user_name"
                     />
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label>{t("email")}</Form.Label>
                     <Form.Control
                         type="email"
                         placeholder="name@example.com"
@@ -59,12 +59,12 @@ const ContactMe = () => {
                     className="mb-3"
                     controlId="exampleForm.ControlTextarea1"
                 >
-                    <Form.Label>Message</Form.Label>
+                    <Form.Label>{t("message")}</Form.Label>
                     <Form.Control as="textarea" rows={3} name="message" />
                 </Form.Group>
                 <input
                     type="submit"
-                    value="Send"
+                    value={t("send")}
                     style={{
                         backgroundColor: "#f3b700",
                         border: "none",
