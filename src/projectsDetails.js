@@ -41,8 +41,8 @@ export const projects = [
     {
         key: 2,
         image: notestodo,
-        title: "Notes Todo App",
-        text: `This is a Notes Todo app in which you can add either a note or a todo, both of which are saved in local storage. This app uses React’s functional components and hooks (useState, useEffect, useContext).`,
+        title: "Notes and Todos App",
+        text: `The Notes and Todos App is an app in which you can add either a note or a todo, both of which are saved in local storage. This app uses React’s functional components and hooks (useState, useEffect, useContext).`,
         badges: ["HTML5", "CSS3", "Javascript", "React", "FontAwesome"],
         icons: [
             {
@@ -56,8 +56,8 @@ export const projects = [
     {
         key: 3,
         image: form,
-        title: "Form App",
-        text: `This is a Form app which uses React state hook form handling and validating React form inputs.`,
+        title: "Sign Up Page",
+        text: `This is a Sign Up Page which uses React state hook form handling and validating React form inputs.`,
         badges: ["HTML5", "CSS3", "Javascript", "React", "FontAwesome"],
         icons: [
             {
@@ -71,9 +71,16 @@ export const projects = [
     {
         key: 4,
         image: lyrics,
-        title: "Lyrics Searcher",
+        title: "Portfoilo Page",
         text: `This project is written with Vanilla JavaScript which uses a third-party API for lyrics searching.`,
-        badges: ["HTML5", "CSS3", "Javascript"],
+        badges: [
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "React",
+            "React Bootstrap",
+            "FontAwesome",
+        ],
         icons: [
             {
                 name: faGithub,

@@ -31,12 +31,10 @@ import { projects } from "../projectsDetails";
 import ProjectContainer from "./ProjectContainer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 
 const Projects = ({ darkMode, t }) => {
     return (
-        <div className="Projects p-3 m-5 ">
+        <div className="Projects p-3 m-md-5 m-xs-1 ">
             <h1 className="p-3 text-center">
                 <a id="projects">{t("projects")}</a>
             </h1>
@@ -86,34 +84,6 @@ const Projects = ({ darkMode, t }) => {
                 ))}
             </Swiper>
         </div>
-        // <div className="Projects">
-        //     <Container
-        //         className="d-flex flex-column justify-content-center align-items-center mt-5 pt-5 mb-5 pb-5"
-        //         fluid
-        //     >
-        //         <h1 className="p-3">
-        //             <a id="projects">{t("projects")}</a>
-        //         </h1>
-        //         <Row
-        //             xs={1}
-        //             md={2}
-        //             lg={3}
-        //             className="d-flex justify-content-center align-items-center"
-        //         >
-        //             {projects.map((project) => (
-        //                 <ProjectContainer
-        //                     key={project.key}
-        //                     image={project.image}
-        //                     title={project.title}
-        //                     text={project.text}
-        //                     badges={project.badges}
-        //                     icons={project.icons}
-        //                     darkMode={darkMode}
-        //                 />
-        //             ))}
-        //         </Row>
-        //     </Container>
-        // </div>
     );
 };
 

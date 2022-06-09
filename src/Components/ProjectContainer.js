@@ -29,26 +29,25 @@ const ProjectContainer = ({
     icons,
 }) => {
     return (
-        // <div key={key}>
-        // <Col className="d-flex justify-content-center" key={key}>
         <Container
             bg={darkMode ? "light" : "dark"}
             text={darkMode ? ["light-color"] : ["dark-color"]}
-            className="m-auto mb-4"
+            className="mb-4"
+            key={key}
         >
-            <Row md={2} className="pt-3 align-items-center pb-4">
+            <Row xs={1} md={2} className="p-2 align-items-center">
                 <Col>
                     <Container>
                         <Image
                             variant="top"
                             src={image}
-                            className=" w-100 h-100 shadow mb-5 rounded"
+                            className=" w-100 h-100 shadow mb-xs-1 rounded"
                         />
                     </Container>
                 </Col>
                 <Col>
                     <Container>
-                        <h1>{title}</h1>
+                        <h3>{title}</h3>
                         <p
                             style={{
                                 height: "6.5rem",
@@ -92,8 +91,6 @@ const ProjectContainer = ({
                 </Col>
             </Row>
         </Container>
-        // </Col>
-        // </div>
     );
 };
 
