@@ -21,6 +21,19 @@ $third-color: #f3b700;
     }
 }
 
+.darkModeSelect {
+  .ReactFlagsSelect-module_selectValue__152eS {
+    color: $light-color;
+  }
+  .ReactFlagsSelect-module_selectOptions__3LNBJ {
+    background-color: $dark-color;
+    color: $light-color;
+  }
+  .ReactFlagsSelect-module_selectOptions__3LNBJ:hover{
+    color: $dark-color;
+  }
+}
+
 .icon {
    cursor: pointer;
 }

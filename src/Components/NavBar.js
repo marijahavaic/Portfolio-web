@@ -55,6 +55,7 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                                     FR: "Français",
                                     HR: "Hrvatski",
                                 }}
+                                className={darkMode ? "" : "darkModeSelect"}
                             />
                             <Form className="position-realtive top-0 end-0 p-2">
                                 <label id="switch" className="switch">
