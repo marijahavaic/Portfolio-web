@@ -68,6 +68,21 @@ export const projects = [
             { name: faGlobe, href: "github" },
         ],
     },
+    {
+        key: 4,
+        image: lyrics,
+        title: "Lyrics Searcher",
+        text: `This project is written with Vanilla JavaScript which uses a third-party API for lyrics searching.`,
+        badges: ["HTML5", "CSS3", "Javascript"],
+        icons: [
+            {
+                name: faGithub,
+                href: "https://github.com/marijahavaic/lyrics-searcher",
+            },
+            // { name: faYoutube, href: "github" },
+            { name: faGlobe, href: "github" },
+        ],
+    },
 ];
 export const web_skills = [
     { icon: faHtml5, name: "HTML5" },

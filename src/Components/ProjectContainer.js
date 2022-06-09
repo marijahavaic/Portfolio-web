@@ -1,5 +1,11 @@
 import React from "react";
 
+// Import Swiper React components
+import { SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+
 import "../sass/App.scss";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,68 +29,68 @@ const ProjectContainer = ({
     icons,
 }) => {
     return (
-        <div key={key}>
-            <Col className="d-flex justify-content-center" key={key}>
-                <Card
-                    style={{ width: "23rem", height: "32rem" }}
-                    bg={darkMode ? "light" : "dark"}
-                    text={darkMode ? ["light-color"] : ["dark-color"]}
-                    className="mb-5"
+        // <div key={key}>
+        // <Col className="d-flex justify-content-center" key={key}>
+        <Card
+            style={{ width: "23rem", height: "32rem" }}
+            bg={darkMode ? "light" : "dark"}
+            text={darkMode ? ["light-color"] : ["dark-color"]}
+            className="m-auto mb-4"
+        >
+            <Card.Img variant="top" src={image} />
+            <Dropdown.Divider
+                style={{
+                    color: "dark",
+                    padding: 0,
+                    margin: 0,
+                    height: "0.05rem",
+                }}
+            />
+            <Card.Body>
+                <Card.Title>{title}</Card.Title>
+                <Card.Text
+                    style={{
+                        height: "6.5rem",
+                    }}
                 >
-                    <Card.Img variant="top" src={image} />
-                    <Dropdown.Divider
-                        style={{
-                            color: "dark",
-                            padding: 0,
-                            margin: 0,
-                            height: "0.05rem",
-                        }}
-                    />
-                    <Card.Body>
-                        <Card.Title>{title}</Card.Title>
-                        <Card.Text
-                            style={{
-                                height: "6.5rem",
-                            }}
+                    {text}
+                </Card.Text>
+                <div className="pt-3 pb-3" style={{ height: "5.5rem" }}>
+                    {badges.map((badge, i) => (
+                        <Badge
+                            key={i}
+                            bg={darkMode ? "dark" : "light"}
+                            text={darkMode ? "light" : "dark"}
+                            className="m-1 p-1"
                         >
-                            {text}
-                        </Card.Text>
-                        <div className="pt-3 pb-3" style={{ height: "5.5rem" }}>
-                            {badges.map((badge, i) => (
-                                <Badge
-                                    key={i}
-                                    bg={darkMode ? "dark" : "light"}
-                                    text={darkMode ? "light" : "dark"}
-                                    className="m-1 p-1"
-                                >
-                                    {" "}
-                                    {badge}
-                                </Badge>
-                            ))}
-                        </div>
-                        <Container
-                            variant="bottom"
-                            className="d-flex justify-content-center align-items-center"
-                        >
-                            <Row>
-                                {icons.map((icon, i) => (
-                                    <Col key={i} className="icon links">
-                                        <a href={icon.href} target="_blank">
-                                            <FontAwesomeIcon
-                                                icon={icon.name}
-                                                style={{
-                                                    fontSize: "2.25rem",
-                                                }}
-                                            />
-                                        </a>
-                                    </Col>
-                                ))}
-                            </Row>
-                        </Container>
-                    </Card.Body>
-                </Card>
-            </Col>
-        </div>
+                            {" "}
+                            {badge}
+                        </Badge>
+                    ))}
+                </div>
+                <Container
+                    variant="bottom"
+                    className="d-flex justify-content-center align-items-center"
+                >
+                    <Row>
+                        {icons.map((icon, i) => (
+                            <Col key={i} className="icon links">
+                                <a href={icon.href} target="_blank">
+                                    <FontAwesomeIcon
+                                        icon={icon.name}
+                                        style={{
+                                            fontSize: "2.25rem",
+                                        }}
+                                    />
+                                </a>
+                            </Col>
+                        ))}
+                    </Row>
+                </Container>
+            </Card.Body>
+        </Card>
+        // </Col>
+        // </div>
     );
 };
 
