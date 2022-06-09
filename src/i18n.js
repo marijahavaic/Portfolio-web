@@ -50,11 +50,11 @@ i18n
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
         resources: {
-            en: { translation: translationsEn },
+            gb: { translation: translationsEn },
             fr: { translation: translationsFr },
-            cro: { translation: translationsCro },
+            hr: { translation: translationsCro },
         },
-        fallbackLng: "en",
+        fallbackLng: "gb",
         debug: true,
 
         interpolation: {

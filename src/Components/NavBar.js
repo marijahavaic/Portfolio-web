@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+
+import ReactFlagsSelect from "react-flags-select";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -7,7 +9,12 @@ import Form from "react-bootstrap/Form";
 
 import "../sass/App.scss";
 
-const NavBar = ({ darkMode, handleToggle, onChange, t }) => {
+const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
+    const [select, setSelect] = useState("");
+    const onSelect = (code) => {
+        setSelect(code);
+        languageChange(code.toLowerCase());
+    };
     return (
         <div className="NavBar">
             <Navbar
@@ -38,15 +45,17 @@ const NavBar = ({ darkMode, handleToggle, onChange, t }) => {
                             <Nav.Link href="#contactme">
                                 {t("contactMe")}
                             </Nav.Link>
-                            <select
-                                name="language"
-                                onChange={onChange}
-                                style={{ borderRadius: "10%", outline: "none" }}
-                            >
-                                <option value="en">English</option>
-                                <option value="fr">French</option>
-                                <option value="cro">Croatian</option>
-                            </select>
+                            <ReactFlagsSelect
+                                selected={select}
+                                onSelect={onSelect}
+                                countries={["GB", "FR", "HR"]}
+                                placeholder="Select Language"
+                                customLabels={{
+                                    GB: "English",
+                                    FR: "Français",
+                                    HR: "Hrvatski",
+                                }}
+                            />
                             <Form className="position-realtive top-0 end-0 p-2">
                                 <label id="switch" className="switch">
                                     <input

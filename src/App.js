@@ -25,8 +25,8 @@ function App() {
         setDarkMode(!darkMode);
     };
 
-    const onChange = (e) => {
-        i18n.changeLanguage(e.target.value);
+    const languageChange = (code) => {
+        i18n.changeLanguage(code);
     };
 
     return (
@@ -36,7 +36,7 @@ function App() {
                     darkMode={darkMode}
                     handleToggle={handleToggle}
                     t={t}
-                    onChange={onChange}
+                    languageChange={languageChange}
                 />
 
                 <AboutMe />
