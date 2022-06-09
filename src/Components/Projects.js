@@ -31,12 +31,15 @@ import { projects } from "../projectsDetails";
 import ProjectContainer from "./ProjectContainer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Container from "react-bootstrap/Container";
-// import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 const Projects = ({ darkMode, t }) => {
     return (
         <div className="Projects p-3 m-5 ">
+            <h1 className="p-3 text-center">
+                <a id="projects">{t("projects")}</a>
+            </h1>
             <Swiper
                 modules={[
                     Navigation,
@@ -44,26 +47,26 @@ const Projects = ({ darkMode, t }) => {
                     Scrollbar,
                     A11y,
                     Autoplay,
-                    // EffectCoverflow,
+                    EffectCoverflow,
                 ]}
-                // effect={"coverflow"}
+                effect={"coverflow"}
                 spaceBetween={1}
                 slidesPerView={1}
-                // autoplay={{
-                //     delay: 2500,
-                //     disableOnInteraction: false,
-                // }}
-                // coverflowEffect={{
-                //     rotate: 50,
-                //     stretch: 0,
-                //     depth: 100,
-                //     modifier: 1,
-                //     slideShadows: true,
-                // }}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
+                coverflowEffect={{
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                }}
                 loop={true}
-                navigation
+                navigation={true}
                 pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
+                // scrollbar={{ draggable: true }}
                 data-swiper-autoplay="2000"
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log("slide change")}
