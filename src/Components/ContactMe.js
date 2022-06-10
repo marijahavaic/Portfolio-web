@@ -54,11 +54,6 @@ const ContactMe = ({ t }) => {
                         placeholder="name@example.com"
                         name="user_email"
                     />
-                </Form.Group>
-                <Form.Group
-                    className="mb-3"
-                    controlId="exampleForm.ControlTextarea1"
-                >
                     <Form.Label>{t("message")}</Form.Label>
                     <Form.Control as="textarea" rows={3} name="message" />
                 </Form.Group>

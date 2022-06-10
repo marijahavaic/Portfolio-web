@@ -35,7 +35,7 @@ export const projects = [
                 href: "https://github.com/marijahavaic/lyrics-searcher",
             },
             // { name: faYoutube, href: "github" },
-            { name: faGlobe, href: "github" },
+            { name: faGlobe, href: "http://lyricssearcher.marijahavaic.com/" },
         ],
     },
     {
@@ -50,7 +50,7 @@ export const projects = [
                 href: "https://github.com/marijahavaic/notes-todo-app",
             },
             // { name: faYoutube, href: "github" },
-            { name: faGlobe, href: "github" },
+            { name: faGlobe, href: "http://notes.marijahavaic.com/" },
         ],
     },
     {
@@ -65,7 +65,7 @@ export const projects = [
                 href: "https://github.com/marijahavaic/form-app",
             },
             // { name: faYoutube, href: "github" },
-            { name: faGlobe, href: "github" },
+            { name: faGlobe, href: "http://form.marijahavaic.com/" },
         ],
     },
     {
