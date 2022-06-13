@@ -34,14 +34,17 @@ const ProjectContainer = ({
             text={darkMode ? ["light-color"] : ["dark-color"]}
             className="mb-4"
             key={key}
+            style={{
+                height: "750px",
+            }}
         >
-            <Row xs={1} md={2} className="p-2 align-items-center">
+            <Row xs={1} md={2} className="p-2 align-items-center h-100">
                 <Col>
-                    <Container>
+                    <Container className="h-100">
                         <Image
                             variant="top"
                             src={image}
-                            className=" w-100 h-100 shadow mb-xs-1 rounded"
+                            className="w-100 h-100 shadow mb-xs-1 rounded"
                         />
                     </Container>
                 </Col>

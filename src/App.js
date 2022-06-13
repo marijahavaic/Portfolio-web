@@ -44,12 +44,12 @@ function App() {
                 <Container className="h-100 d-flex justify-content-end pe-5">
                     <a href="#home">
                         <Button
-                            variant={darkMode ? "dark" : "light"}
+                            variant="danger"
                             className="position-fixed bottom-0 mb-3"
                         >
                             <FontAwesomeIcon
                                 icon={faArrowUp}
-                                style={{ fontSize: "1rem" }}
+                                style={{ fontSize: "1.25rem" }}
                             />
                         </Button>
                     </a>

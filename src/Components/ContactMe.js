@@ -5,7 +5,9 @@ import emailjs from "@emailjs/browser";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Form from "react-bootstrap/Form";
-// import Button from "react-bootstrap/Button";
+import Button from "react-bootstrap/Button";
+
+import "../sass/App.scss";
 
 const ContactMe = ({ t }) => {
     const form = useRef();
@@ -33,8 +35,8 @@ const ContactMe = ({ t }) => {
     };
 
     return (
-        <div className="ContactMe d-flex flex-column justify-content-center align-items-center">
-            <Form className="w-75" onSubmit={sendEmail} ref={form}>
+        <div className="ContactMe d-flex flex-column justify-content-center align-items-center pt-5 mt-5 pb-5 mb-5">
+            <Form className="w-75 pb-5 mb-5" onSubmit={sendEmail} ref={form}>
                 <h1 className="text-center">
                     <a id="contactme">{t("contactMe")}</a>
                 </h1>
@@ -47,27 +49,29 @@ const ContactMe = ({ t }) => {
                         type="text"
                         placeholder="John Doe"
                         name="user_name"
+                        required
                     />
                     <Form.Label>{t("email")}</Form.Label>
                     <Form.Control
                         type="email"
                         placeholder="name@example.com"
                         name="user_email"
+                        required
                     />
                     <Form.Label>{t("message")}</Form.Label>
-                    <Form.Control as="textarea" rows={3} name="message" />
+                    <Form.Control
+                        as="textarea"
+                        rows={3}
+                        name="message"
+                        required
+                    />
                 </Form.Group>
-                <input
+                <Button
+                    as="input"
                     type="submit"
                     value={t("send")}
-                    style={{
-                        backgroundColor: "#f3b700",
-                        border: "none",
-                        color: "aliceblue",
-                        padding: "0.75rem",
-                        borderRadius: "10%",
-                    }}
-                    className="icon"
+                    className="btn"
+                    variant="danger"
                 />
             </Form>
         </div>

@@ -9,16 +9,18 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-import portfolio_undraw from "./Photos/portfolio_undraw.svg";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
+import Undraw from "react-undraw";
+
+Undraw.defaultProps.primaryColor = "#DA0037";
+
 const AboutMe = () => {
     return (
-        <div className="AboutMe pt-5 mt-5">
+        <div className="AboutMe pt-md-5 mt-md-5 pb-md-5 mb-md-5">
             <a id="aboutme">
-                <Container className="pt-5 mt-5">
+                <Container>
                     <Row
                         xs={1}
                         md={1}
@@ -26,40 +28,38 @@ const AboutMe = () => {
                         className="justify-content-xs-center"
                     >
                         <Col xs="auto">
-                            <img
-                                className="image w-100 h-100"
-                                src={portfolio_undraw}
-                            />
+                            <Undraw name="proud_coder_re_exuy" height="700px" />
                         </Col>
                         <Col className="align-self-center" xs="auto">
-                            <h1>Hi, I am Marija</h1>
-                            <p>
+                            <h1>Hi, I'm Marija!</h1>
+                            <h3>
                                 A passonate self-taught Front-End Developer.
                                 Having an experience of building Web
                                 applications with JavaScript and Reactjs and
                                 some other cool libraries and frameworks.
-                            </p>
-                            <Container className="d-flex flex-column justify-content-center align-items-center">
+                            </h3>
+                            <Container className="p-0 d-flex flex-column justify-content-center">
                                 <Row>
-                                    <Col className="m-1 icon">
+                                    <Col className="icon align-items-center justify-content-center">
                                         <a
                                             href="https://github.com/marijahavaic"
                                             target="_blank"
                                         >
                                             <FontAwesomeIcon
                                                 icon={faGithub}
-                                                style={{ fontSize: "2.25rem" }}
+                                                style={{
+                                                    fontSize: "2.5rem",
+                                                    paddingRight: "2rem",
+                                                }}
                                             />
                                         </a>
-                                    </Col>
-                                    <Col className="m-1 icon">
                                         <a
                                             href="https://www.linkedin.com/in/marija-havaic/"
                                             target="_blank"
                                         >
                                             <FontAwesomeIcon
                                                 icon={faLinkedin}
-                                                style={{ fontSize: "2.25rem" }}
+                                                style={{ fontSize: "2.75rem" }}
                                             />
                                         </a>
                                     </Col>
@@ -67,14 +67,9 @@ const AboutMe = () => {
                                 <Row>
                                     <Col>
                                         <Button
-                                            style={{
-                                                backgroundColor: "#f3b700",
-                                                border: "none",
-                                                color: "aliceblue",
-                                            }}
-                                            variant="warning"
+                                            variant="danger"
                                             type="submit"
-                                            className="mt-3"
+                                            className="mt-3 p-2 btn"
                                         >
                                             Download CV
                                         </Button>

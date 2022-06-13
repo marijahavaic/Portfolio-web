@@ -20,7 +20,7 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
             <Navbar
                 collapseOnSelect
                 expand="lg"
-                style={{ fontWeight: 400 }}
+                style={{ fontWeight: 400, fontSize: "1.25rem" }}
                 bg={darkMode ? ["light-color"] : ["dark-color"]}
                 variant={darkMode ? "light" : "dark"}
                 className="pt-3"
@@ -29,7 +29,7 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                     <Navbar.Brand
                         href="#home"
                         id="home"
-                        style={{ fontSize: "1.25rem", fontWeight: 600 }}
+                        style={{ fontSize: "1.5rem", fontWeight: 600 }}
                     >
                         {t("home")}
                     </Navbar.Brand>

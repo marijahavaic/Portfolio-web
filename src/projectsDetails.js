@@ -95,11 +95,11 @@ export const web_skills = [
     { icon: faHtml5, name: "HTML5" },
     { icon: faCss3Alt, name: "CSS3" },
     { icon: faJs, name: "JavaScript" },
-    { icon: faReact, name: "React JS" },
+    { icon: faReact, name: "ReactJS" },
     { icon: faRoute, name: "React Router" },
     { icon: faBootstrap, name: "Bootstrap5" },
-    { icon: faFontAwesome, name: "FontAwesome" },
-    { icon: faClone, name: "MeaterialUI" },
+    { icon: faClone, name: "Material UI" },
+    { icon: faFontAwesome, name: "Font Awesome" },
 ];
 export const design_skills = [
     { icon: faFigma, name: "Figma" },

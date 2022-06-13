@@ -1,6 +1,38 @@
-$light-color: aliceblue;
-$dark-color: #212529;
-$third-color: #f3b700;
+$light-color: #FFFFFF;
+$dark-color: #272727;
+$third-color: #DA0037;
+
+:root {
+  h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+
+  .btn {
+    background-color: $third-color;
+    color: $light-color;
+    font-weight: 500;
+    font-size: 1.25rem;
+    cursor: pointer;
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
 
 .Dark-mode {
     background-color: $dark-color;
@@ -21,6 +53,8 @@ $third-color: #f3b700;
     }
 }
 
+
+
 .darkModeSelect {
   .ReactFlagsSelect-module_selectValue__152eS {
     color: $light-color;
@@ -33,6 +67,7 @@ $third-color: #f3b700;
     color: $dark-color;
   }
 }
+
 
 .icon {
    cursor: pointer;
