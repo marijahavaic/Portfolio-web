@@ -24,8 +24,6 @@ import "swiper/scss";
 import "swiper/scss/navigation";
 import "swiper/scss/pagination";
 
-import "./Style/Projects.css";
-
 import { projects } from "../projectsDetails";
 
 import ProjectContainer from "./ProjectContainer";

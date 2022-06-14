@@ -1,5 +1,4 @@
 import React from "react";
-import "./Style/AboutMe.css";
 
 import "../sass/App.scss";
 

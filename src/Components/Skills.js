@@ -1,5 +1,4 @@
 import React from "react";
-import "./Style/Skills.css";
 
 import { web_skills, design_skills } from "../projectsDetails";
 

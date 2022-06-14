@@ -19,7 +19,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import lyrics from "./Components/Photos/lyrics.png";
-import notestodo from "./Components/Photos/notestodo.png";
+import notestodos from "./Components/Photos/notestodos.png";
 import form from "./Components/Photos/form.png";
 
 export const projects = [
@@ -40,7 +40,7 @@ export const projects = [
     },
     {
         key: 2,
-        image: notestodo,
+        image: notestodos,
         title: "Notes and Todos App",
         text: `The Notes and Todos App is an app in which you can add either a note or a todo, both of which are saved in local storage. This app uses React’s functional components and hooks (useState, useEffect, useContext).`,
         badges: ["HTML5", "CSS3", "Javascript", "React", "FontAwesome"],
