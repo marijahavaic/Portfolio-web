@@ -41,6 +41,7 @@ $breakpoint-mobile: 480px;
 
     h1 {
       font-size: 3rem;
+      text-align: center;
     }
 
     h2 {
@@ -48,16 +49,19 @@ $breakpoint-mobile: 480px;
     }
 
     h3 {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       text-align: center;
     }
 
     p {
-      font-size: 1.25rem;
+      font-size: 1.4rem;
     }
     .aboutmeImg {
       height: 230px;
       margin: 0 auto;
+    }
+    .skills_icon {
+      font-size: 1rem;
     }
   }  
 }
