@@ -34,7 +34,11 @@ const ProjectContainer = ({
                 height: "750px",
             }}
         >
-            <Row xs={1} md={2} className="align-items-center h-100">
+            <Row
+                xs={10}
+                md={2}
+                className="align-items-center justify-content-center h-100"
+            >
                 <Col xs md={7}>
                     <Container>
                         <Image
@@ -44,10 +48,10 @@ const ProjectContainer = ({
                         />
                     </Container>
                 </Col>
-                <Col xs md={5} className="py-xs-4">
+                <Col xs={12} md={5}>
                     <Container className="py-xs-4 py-md-0 m-0">
-                        <h3>{title}</h3>
-                        <p>{text}</p>
+                        <h3 className="px-3">{title}</h3>
+                        <p className="px-3">{text}</p>
                         <div className="px-3" style={{ height: "5.5rem" }}>
                             {badges.map((badge, i) => (
                                 <Badge
