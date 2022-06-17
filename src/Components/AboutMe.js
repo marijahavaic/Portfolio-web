@@ -18,7 +18,7 @@ const AboutMe = () => {
     return (
         <div className="AboutMe py-md-5 my-md-5">
             <a id="aboutme">
-                <Container className="py-md-5 my-md-5">
+                <Container>
                     <Row
                         xs={1}
                         md={1}
