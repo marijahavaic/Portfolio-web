@@ -32,7 +32,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Projects = ({ darkMode, t }) => {
     return (
-        <div className="Projects p-3 m-md-5 m-xs-1 ">
+        <div className="Projects">
             <h1 className="p-3 text-center">
                 <a id="projects">{t("projects")}</a>
             </h1>
@@ -64,8 +64,8 @@ const Projects = ({ darkMode, t }) => {
                 pagination={{ clickable: true }}
                 // scrollbar={{ draggable: true }}
                 data-swiper-autoplay="2000"
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log("slide change")}
+                // onSwiper={(swiper) => console.log(swiper)}
+                // onSlideChange={() => console.log("slide change")}
             >
                 {projects.map((project) => (
                     <SwiperSlide>

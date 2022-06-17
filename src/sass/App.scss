@@ -2,6 +2,8 @@ $light-color: #FFFFFF;
 $dark-color: #272727;
 $third-color: #DA0037;
 
+$breakpoint-mobile: 480px;
+
 :root {
   h1 {
   font-size: 5rem;
@@ -32,6 +34,27 @@ $third-color: #DA0037;
       transform: scale(0.9);
     }
   }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  :root {
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    h3 {
+      font-size: 1.75rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
+  }  
 }
 
 .Dark-mode {

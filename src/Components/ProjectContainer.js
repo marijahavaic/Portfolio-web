@@ -1,8 +1,5 @@
 import React from "react";
 
-// Import Swiper React components
-import { SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 
@@ -15,7 +12,6 @@ import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Dropdown from "react-bootstrap/Dropdown";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -48,11 +44,11 @@ const ProjectContainer = ({
                         />
                     </Container>
                 </Col>
-                <Col xs md={5}>
-                    <Container className="p-0 m-0">
+                <Col xs md={5} className="py-xs-4">
+                    <Container className="py-xs-4 py-md-0 m-0">
                         <h3>{title}</h3>
                         <p>{text}</p>
-                        <div className="pt-3 pb-3" style={{ height: "5.5rem" }}>
+                        <div className="px-3" style={{ height: "5.5rem" }}>
                             {badges.map((badge, i) => (
                                 <Badge
                                     key={i}

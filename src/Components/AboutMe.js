@@ -17,7 +17,7 @@ Undraw.defaultProps.primaryColor = "#DA0037";
 
 const AboutMe = () => {
     return (
-        <div className="AboutMe pt-md-5 mt-md-5 pb-md-5 mb-md-5">
+        <div className="AboutMe py-md-5 my-md-5">
             <a id="aboutme">
                 <Container>
                     <Row
@@ -27,7 +27,11 @@ const AboutMe = () => {
                         className="justify-content-xs-center"
                     >
                         <Col xs="auto">
-                            <Undraw name="proud_coder_re_exuy" height="700px" />
+                            <Undraw
+                                className="undrawImage"
+                                name="proud_coder_re_exuy"
+                                height="700px"
+                            />
                         </Col>
                         <Col className="align-self-center" xs="auto">
                             <h1>Hi, I'm Marija!</h1>
