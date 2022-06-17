@@ -7,33 +7,33 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import Image from "react-bootstrap/Image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import Undraw from "react-undraw";
-
-Undraw.defaultProps.primaryColor = "#DA0037";
+import proud_coder from "./Photos/proud_coder.svg";
 
 const AboutMe = () => {
     return (
         <div className="AboutMe py-md-5 my-md-5">
             <a id="aboutme">
-                <Container>
+                <Container className="py-md-5 my-md-5">
                     <Row
                         xs={1}
                         md={1}
                         lg={2}
-                        className="justify-content-xs-center"
+                        className="justify-content-xs-center my-5 py-5"
                     >
                         <Col xs="auto">
-                            <Undraw
-                                className="undrawImage"
-                                name="proud_coder_re_exuy"
-                                height="700px"
+                            <Image
+                                variant="center"
+                                src={proud_coder}
+                                height="400px"
+                                className="aboutmeImg"
                             />
                         </Col>
-                        <Col className="align-self-center" xs="auto">
+                        <Col className="align-self-center px-2" xs="auto">
                             <h1>Hi, I'm Marija!</h1>
                             <h3>
                                 A passonate self-taught Front-End Developer.
@@ -41,7 +41,7 @@ const AboutMe = () => {
                                 applications with JavaScript and Reactjs and
                                 some other cool libraries and frameworks.
                             </h3>
-                            <Container className="p-0 d-flex flex-column justify-content-center">
+                            <Container className="px-0 d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
                                 <Row>
                                     <Col className="icon align-items-center justify-content-center">
                                         <a
