@@ -38,7 +38,7 @@ const AboutMe = () => {
                             <h3>
                                 A passonate self-taught Front-End Developer.
                                 Having an experience of building Web
-                                applications with JavaScript and Reactjs and
+                                applications with JavaScript and ReactJS and
                                 some other cool libraries and frameworks.
                             </h3>
                             <Container className="px-0 d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
