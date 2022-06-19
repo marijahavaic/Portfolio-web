@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import "./Style/ContactMe.css";
 
 import emailjs from "@emailjs/browser";
 
@@ -35,8 +34,15 @@ const ContactMe = ({ t }) => {
     };
 
     return (
-        <div className="ContactMe d-flex flex-column justify-content-center align-items-center pt-5 mt-5 pb-5 mb-5">
-            <Form className="w-75 pb-5 mb-5" onSubmit={sendEmail} ref={form}>
+        <div
+            className="ContactMe d-flex flex-column justify-content-center align-items-center py-5 my-5"
+            style={{ height: "80vh" }}
+        >
+            <Form
+                className="w-75 h-100 py-5 my-5"
+                onSubmit={sendEmail}
+                ref={form}
+            >
                 <h1 className="text-center">
                     <a id="contactme">{t("contactMe")}</a>
                 </h1>
@@ -70,7 +76,7 @@ const ContactMe = ({ t }) => {
                     as="input"
                     type="submit"
                     value={t("send")}
-                    className="btn"
+                    className="btn mb-5"
                     variant="danger"
                 />
             </Form>

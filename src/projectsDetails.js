@@ -73,7 +73,7 @@ export const projects = [
         id: nanoid(),
         image: lyrics,
         title: "Portfoilo Page",
-        text: `This project is written with Vanilla JavaScript which uses a third-party API for lyrics searching.`,
+        text: `React mobile friendly personal portfolio application which showcases a brief introduction, skills, projects and provides users with a contact form.`,
         badges: ["React", "React Bootstrap", "FontAwesome", "CSS3", "HTML5"],
         icons: [
             {

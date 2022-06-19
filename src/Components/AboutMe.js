@@ -32,15 +32,20 @@ const AboutMe = () => {
                             className="aboutmeImg"
                         />
                     </Col>
-                    <Col className="align-self-center px-2" xs="auto">
-                        <h1>Hi, I'm Marija!</h1>
+                    <Col className="align-self-center px-3" xs="auto">
+                        <a id="aboutme">
+                            <h1>Hi, I'm Marija!</h1>
+                        </a>
                         <h3>
-                            A passonate self-taught Front-End Developer. Having
-                            an experience of building Web applications with
-                            JavaScript and ReactJS and some other cool libraries
-                            and frameworks.
+                            {`Self-taught Front-End Developer passionate about
+                            building efficient, mobile-first responsive web
+                            applications using JavaScript and React with
+                            experience of building web applications throughout a
+                            two-year long career changing journey to a
+                            fulfilling role. I’m looking for challenges and
+                            opportunities to learn and grow.`}
                         </h3>
-                        <Container className="px-0 d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
+                        <Container className="px-0 py-2 d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
                             <Row>
                                 <Col className="icon align-items-center justify-content-center">
                                     <a
@@ -50,7 +55,7 @@ const AboutMe = () => {
                                         <FontAwesomeIcon
                                             icon={faGithub}
                                             style={{
-                                                fontSize: "2.5rem",
+                                                fontSize: "3.75rem",
                                                 paddingRight: "2rem",
                                             }}
                                         />
@@ -61,7 +66,7 @@ const AboutMe = () => {
                                     >
                                         <FontAwesomeIcon
                                             icon={faLinkedin}
-                                            style={{ fontSize: "2.75rem" }}
+                                            style={{ fontSize: "4rem" }}
                                         />
                                     </a>
                                 </Col>
@@ -71,7 +76,7 @@ const AboutMe = () => {
                                     <Button
                                         variant="danger"
                                         type="submit"
-                                        className="mt-3 p-2 btn"
+                                        className="mt-3 p-3 btn"
                                     >
                                         Download CV
                                     </Button>
