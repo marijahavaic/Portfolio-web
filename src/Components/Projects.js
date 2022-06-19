@@ -71,8 +71,8 @@ const Projects = ({ darkMode, t }) => {
                     <SwiperSlide key={project.id}>
                         <ProjectContainer
                             image={project.image}
-                            title={project.title}
-                            text={project.text}
+                            title={t(`project_list.${project.slug}.title`)}
+                            text={t(`project_list.${project.slug}.text`)}
                             badges={project.badges}
                             icons={project.icons}
                             darkMode={darkMode}

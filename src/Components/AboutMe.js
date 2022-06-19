@@ -14,7 +14,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import proud_coder from "./Photos/proud_coder.svg";
 
-const AboutMe = () => {
+const AboutMe = ({ t }) => {
     return (
         <div
             className="AboutMe py-md-5 my-md-5 d-flex align-items-md-center"
@@ -37,11 +37,9 @@ const AboutMe = () => {
                     </Col>
                     <Col className="align-self-center px-3" xs="auto">
                         <a id="aboutme">
-                            <h1>Hi, I'm Marija!</h1>
+                            <h1>{t("aboutme")} Marija!</h1>
                         </a>
-                        <h3>
-                            {`I'm passionate about building web applications using JavaScript and React with experience of building web applications throughout two years.`}
-                        </h3>
+                        <h3>{t("aboutmetext")}</h3>
                         <Container className="px-0 py-2 d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
                             <Row>
                                 <Col className="icon align-items-center justify-content-center">

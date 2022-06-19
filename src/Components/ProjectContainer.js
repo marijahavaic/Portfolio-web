@@ -49,7 +49,9 @@ const ProjectContainer = ({
                 </Col>
                 <Col xs={12} md={5}>
                     <Container className="py-xs-4 py-md-0 m-0">
-                        <h3 className="px-3">{title}</h3>
+                        <h3 className="px-3" style={{ fontWeight: "500" }}>
+                            {title}
+                        </h3>
                         <p className="px-3 ">{text}</p>
                         <div className="px-3" style={{ height: "5.5rem" }}>
                             {badges.map((badge, i) => (

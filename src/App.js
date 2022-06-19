@@ -39,7 +39,7 @@ function App() {
                     languageChange={languageChange}
                 />
 
-                <AboutMe />
+                <AboutMe t={t} />
 
                 <Container className="h-100 d-flex justify-content-end pe-5">
                     <a href="#home">
