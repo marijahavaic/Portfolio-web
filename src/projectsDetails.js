@@ -1,4 +1,4 @@
-import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import {
     faHtml5,
@@ -21,14 +21,15 @@ import {
 import lyrics from "./Components/Photos/lyrics.png";
 import notestodos from "./Components/Photos/notestodos.png";
 import form from "./Components/Photos/form.png";
+import { nanoid } from "nanoid";
 
 export const projects = [
     {
-        key: 1,
+        id: nanoid(),
         image: lyrics,
         title: "Lyrics Searcher",
-        text: `This project is written with Vanilla JavaScript which uses a third-party API for lyrics searching.`,
-        badges: ["HTML5", "CSS3", "Javascript"],
+        text: `Vanilla JavaScript application which uses a third-party API for finding lyrics which started as a simple DOM representation of JSON API responses and became a website for looking up and displaying the artist, lyrics and song sample.`,
+        badges: ["Javascript", "CSS3", "HTML5"],
         icons: [
             {
                 name: faGithub,
@@ -39,11 +40,11 @@ export const projects = [
         ],
     },
     {
-        key: 2,
+        id: nanoid(),
         image: notestodos,
         title: "Notes and Todos App",
-        text: `The Notes and Todos App is an app in which you can add either a note or a todo, both of which are saved in local storage. This app uses React’s functional components and hooks (useState, useEffect, useContext).`,
-        badges: ["HTML5", "CSS3", "Javascript", "React", "FontAwesome"],
+        text: `React application which allows a user to create, edit and delete post-it sticker notes and todos with checklists, filter by searching for word matches and allows the user to close and reopen the page without data loss.`,
+        badges: ["React", "FontAwesome", "CSS3", "HTML5"],
         icons: [
             {
                 name: faGithub,
@@ -54,11 +55,11 @@ export const projects = [
         ],
     },
     {
-        key: 3,
+        id: nanoid(),
         image: form,
         title: "Sign Up Page",
         text: `This is a Sign Up Page which uses React state hook form handling and validating React form inputs.`,
-        badges: ["HTML5", "CSS3", "Javascript", "React", "FontAwesome"],
+        badges: ["React", "FontAwesome", "CSS3", "HTML5"],
         icons: [
             {
                 name: faGithub,
@@ -69,18 +70,11 @@ export const projects = [
         ],
     },
     {
-        key: 4,
+        id: nanoid(),
         image: lyrics,
         title: "Portfoilo Page",
         text: `This project is written with Vanilla JavaScript which uses a third-party API for lyrics searching.`,
-        badges: [
-            "HTML5",
-            "CSS3",
-            "Javascript",
-            "React",
-            "React Bootstrap",
-            "FontAwesome",
-        ],
+        badges: ["React", "React Bootstrap", "FontAwesome", "CSS3", "HTML5"],
         icons: [
             {
                 name: faGithub,

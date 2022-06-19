@@ -15,6 +15,7 @@ This website is made with ReactJS.
 
 - HTML5
 - CSS3
+- SCSS
 - JavaScript
 - React
 - React Bootstrap

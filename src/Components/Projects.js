@@ -68,9 +68,8 @@ const Projects = ({ darkMode, t }) => {
                 // onSlideChange={() => console.log("slide change")}
             >
                 {projects.map((project) => (
-                    <SwiperSlide>
+                    <SwiperSlide key={project.id}>
                         <ProjectContainer
-                            key={project.key}
                             image={project.image}
                             title={project.title}
                             text={project.text}

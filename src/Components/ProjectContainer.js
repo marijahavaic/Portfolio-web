@@ -16,7 +16,7 @@ import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectContainer = ({
-    key,
+    id,
     darkMode,
     image,
     title,
@@ -29,13 +29,12 @@ const ProjectContainer = ({
             bg={darkMode ? "light" : "dark"}
             text={darkMode ? ["light-color"] : ["dark-color"]}
             className="mb-4"
-            key={key}
             style={{
                 height: "750px",
             }}
         >
             <Row
-                xs={10}
+                xs={12}
                 md={2}
                 className="align-items-center justify-content-center h-100"
             >
@@ -51,7 +50,7 @@ const ProjectContainer = ({
                 <Col xs={12} md={5}>
                     <Container className="py-xs-4 py-md-0 m-0">
                         <h3 className="px-3">{title}</h3>
-                        <p className="px-3">{text}</p>
+                        <p className="px-3 ">{text}</p>
                         <div className="px-3" style={{ height: "5.5rem" }}>
                             {badges.map((badge, i) => (
                                 <Badge
