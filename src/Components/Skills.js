@@ -18,10 +18,10 @@ Undraw.defaultProps.primaryColor = "#DA0037";
 const Skills = ({ t }) => {
     return (
         <div className="Skills">
-            <Container className="justify-content-center align-items-center text-center mb-5 mt-5 pb-5 pt-5">
-                <h1>
-                    <a id="skills">{t("skills")}</a>
-                </h1>
+            <Container className="justify-content-center align-items-center text-center my-5 py-5">
+                <a id="skills">
+                    <h1>{t("skills")}</h1>
+                </a>
                 <Row xs={1} md={2} className="pt-3 align-items-center">
                     <Col
                         className="justify-content-center align-items-center"

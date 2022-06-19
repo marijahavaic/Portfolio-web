@@ -16,8 +16,11 @@ import proud_coder from "./Photos/proud_coder.svg";
 
 const AboutMe = () => {
     return (
-        <div className="AboutMe py-md-5 my-md-5">
-            <Container>
+        <div
+            className="AboutMe py-md-5 my-md-5 d-flex align-items-md-center"
+            style={{ height: "80vh" }}
+        >
+            <Container className="py-md-5 my-md-5">
                 <Row
                     xs={1}
                     md={1}
@@ -37,13 +40,7 @@ const AboutMe = () => {
                             <h1>Hi, I'm Marija!</h1>
                         </a>
                         <h3>
-                            {`Self-taught Front-End Developer passionate about
-                            building efficient, mobile-first responsive web
-                            applications using JavaScript and React with
-                            experience of building web applications throughout a
-                            two-year long career changing journey to a
-                            fulfilling role. I’m looking for challenges and
-                            opportunities to learn and grow.`}
+                            {`I'm passionate about building web applications using JavaScript and React with experience of building web applications throughout two years.`}
                         </h3>
                         <Container className="px-0 py-2 d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
                             <Row>
@@ -71,7 +68,7 @@ const AboutMe = () => {
                                     </a>
                                 </Col>
                             </Row>
-                            <Row>
+                            <Row className="mb-5">
                                 <Col>
                                     <Button
                                         variant="danger"
