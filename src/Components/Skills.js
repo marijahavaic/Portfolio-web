@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Skills = ({ t }) => {
     return (
-        <div className="Skills">
+        <div className="Skills my-5 py-5">
             <Container className="justify-content-center align-items-center text-center my-5 py-5">
                 <a id="skills">
                     <h1>{t("skills")}</h1>
