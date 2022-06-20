@@ -35,7 +35,7 @@ const ContactMe = ({ t }) => {
 
     return (
         <div
-            className="ContactMe d-flex flex-column justify-content-center align-items-center py-5 my-5"
+            className="ContactMe d-flex flex-column justify-content-center align-items-center my-md-5 py-md-5  mb-5 pb-5 mt-0 pt-0"
             style={{ height: "60vh" }}
         >
             <Form className="w-75 h-100" onSubmit={sendEmail} ref={form}>

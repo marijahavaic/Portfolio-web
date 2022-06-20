@@ -17,15 +17,15 @@ import proud_coder from "./Photos/proud_coder.svg";
 const AboutMe = ({ t }) => {
     return (
         <div
-            className="AboutMe py-md-5 my-md-5 d-flex align-items-md-center"
+            className="AboutMe my-md-5 py-md-5 my-2 py-2 d-flex align-items-md-center"
             style={{ height: "80vh" }}
         >
-            <Container className="py-md-5 my-md-5">
+            <Container className="py-md-5 my-md-5 my-2 py-2">
                 <Row
                     xs={1}
                     md={1}
                     lg={2}
-                    className="justify-content-xs-center my-5 py-5"
+                    className="justify-content-xs-center py-md-5 my-md-5 my-2 py-2"
                 >
                     <Col xs="auto">
                         <Image
@@ -33,7 +33,7 @@ const AboutMe = ({ t }) => {
                             src={proud_coder}
                             height="100%"
                             width="100%"
-                            className="aboutmeImg"
+                            className="aboutmeImg img"
                         />
                     </Col>
                     <Col className="align-self-center px-3" xs="auto">

@@ -14,12 +14,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Skills = ({ t }) => {
     return (
-        <div className="Skills my-5 py-5">
-            <Container className="justify-content-center align-items-center text-center my-5 py-5">
+        <div className="Skills my-md-5 py-md-5 mt-5 pt-5 mb-0 pb-0">
+            <Container className="justify-content-center align-items-center text-center my-md-5 py-md-5 my-xs-1 py-xs-1">
                 <a id="skills">
                     <h1>{t("skills")}</h1>
                 </a>
-                <Row xs={1} md={2} className="pt-3 align-items-center">
+                <Row xs={1} md={2} className="pt-3 align-items-center ">
                     <Col
                         className="justify-content-center align-items-center"
                         xs={{ order: "last" }}
@@ -52,18 +52,18 @@ const Skills = ({ t }) => {
                             src={programming}
                             height="100%"
                             width="100%"
-                            className="aboutmeImg"
+                            className="aboutmeImg img"
                         />
                     </Col>
                 </Row>
-                <Row xs={1} md={2} className="align-items-center">
+                <Row xs={1} md={2} className=" align-items-center ">
                     <Col className="justify-content-center align-self-center">
                         <Image
                             variant="center"
                             src={add_color}
                             height="100%"
                             width="100%"
-                            className="aboutmeImg"
+                            className="aboutmeImg img"
                         />
                     </Col>
                     <Col className="align-self-center">
