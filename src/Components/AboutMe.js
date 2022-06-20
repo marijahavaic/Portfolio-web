@@ -37,7 +37,7 @@ const AboutMe = ({ t }) => {
                         />
                     </Col>
                     <Col className="align-self-center px-3" xs="auto">
-                        <a id="aboutme">
+                        <a id="aboutme" href="#aboutme" className="links">
                             <h1>{t("aboutme")} Marija!</h1>
                         </a>
                         <h3>{t("aboutmetext")}</h3>
@@ -49,6 +49,7 @@ const AboutMe = ({ t }) => {
                                 <Col className="icon align-items-center justify-content-center">
                                     <a
                                         href="https://github.com/marijahavaic"
+                                        rel="noreferrer noopener"
                                         target="_blank"
                                     >
                                         <FontAwesomeIcon
@@ -61,6 +62,7 @@ const AboutMe = ({ t }) => {
                                     </a>
                                     <a
                                         href="https://www.linkedin.com/in/marija-havaic/"
+                                        rel="noreferrer noopener"
                                         target="_blank"
                                     >
                                         <FontAwesomeIcon
@@ -79,6 +81,7 @@ const AboutMe = ({ t }) => {
                                     >
                                         <a
                                             href="https://www.dropbox.com/s/k4wwuaasqf6vf0x/Marija%20Havaic%20Resume.pdf?dl=0"
+                                            rel="noreferrer noopener"
                                             target="_blank"
                                             className="resumeLink"
                                         >

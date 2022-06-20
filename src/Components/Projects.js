@@ -34,7 +34,9 @@ const Projects = ({ darkMode, t }) => {
     return (
         <div className="Projects">
             <h1 className="p-3 text-center">
-                <a id="projects">{t("projects")}</a>
+                <a id="projects" href="#projects">
+                    {t("projects")}
+                </a>
             </h1>
             <Swiper
                 modules={[

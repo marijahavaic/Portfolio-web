@@ -73,7 +73,11 @@ const ProjectContainer = ({
                             <Row>
                                 {icons.map((icon, i) => (
                                     <Col key={i} className="icon links">
-                                        <a href={icon.href} target="_blank">
+                                        <a
+                                            href={icon.href}
+                                            target="_blank"
+                                            rel="noreferrer noopener"
+                                        >
                                             <FontAwesomeIcon
                                                 icon={icon.name}
                                                 style={{

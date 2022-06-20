@@ -40,7 +40,9 @@ const ContactMe = ({ t }) => {
         >
             <Form className="w-75 h-100" onSubmit={sendEmail} ref={form}>
                 <h1 className="text-center">
-                    <a id="contactme">{t("contactMe")}</a>
+                    <a id="contactme" href="#contactme">
+                        {t("contactMe")}
+                    </a>
                 </h1>
                 <Form.Group
                     className="mb-3"

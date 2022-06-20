@@ -24,6 +24,10 @@ $breakpoint-mobile: 480px;
     font-weight: 100;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .btn {
     background-color: $third-color;
     color: $light-color;
@@ -36,6 +40,9 @@ $breakpoint-mobile: 480px;
     .resumeLink {
       text-decoration: none;
       &:focus {
+        color: #FFFFFF;
+      }
+      &:active {
         color: #FFFFFF;
       }
     }
@@ -91,6 +98,15 @@ $breakpoint-mobile: 480px;
     }
     a {
       color: $light-color;
+      &:active {
+        color: $light-color;
+      }
+      &:focus {
+        color: $light-color;
+      }
+      &:hover {
+        color: $light-color;
+      }
     }
 }
 
@@ -99,6 +115,15 @@ $breakpoint-mobile: 480px;
     color: $dark-color;
     a {
       color: $dark-color;
+       &:active {
+        color: $dark-color;
+      }
+      &:focus {
+        color: $dark-color;
+      }
+      &:hover {
+        color: $dark-color;
+      }
     }
 }
 
