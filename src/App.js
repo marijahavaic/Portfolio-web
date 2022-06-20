@@ -55,6 +55,9 @@ function App() {
                     </a>
                 </Container>
 
+                {/* Space fix */}
+                <Container className="m-5 w-100 h-25"></Container>
+
                 <Skills t={t} />
 
                 <Projects darkMode={darkMode} t={t} />

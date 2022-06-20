@@ -41,7 +41,10 @@ const AboutMe = ({ t }) => {
                             <h1>{t("aboutme")} Marija!</h1>
                         </a>
                         <h3>{t("aboutmetext")}</h3>
-                        <Container className="px-0 py-2 d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center">
+                        <Container
+                            className="px-0 py-2 
+                        d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center"
+                        >
                             <Row>
                                 <Col className="icon align-items-center justify-content-center">
                                     <a
@@ -67,7 +70,7 @@ const AboutMe = ({ t }) => {
                                     </a>
                                 </Col>
                             </Row>
-                            <Row className="mb-5">
+                            <Row className="mb-5 pb-5">
                                 <Col>
                                     <Button
                                         variant="danger"
