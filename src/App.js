@@ -56,7 +56,9 @@ function App() {
                 </Container>
 
                 {/* Space fix */}
-                <Container className="m-5 w-100 h-25"></Container>
+                <Container className="m-5 w-100 h-25">
+                    <div style={{ height: "2rem" }}></div>
+                </Container>
 
                 <Skills t={t} />
 

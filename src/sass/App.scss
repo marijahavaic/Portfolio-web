@@ -33,6 +33,13 @@ $breakpoint-mobile: 480px;
     &:active {
       transform: scale(0.9);
     }
+    .resumeLink {
+      text-decoration: none;
+      &:focus {
+        color: #FFFFFF;
+      }
+    }
+    
   }
 }
 

@@ -12,7 +12,7 @@ import Image from "react-bootstrap/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import proud_coder from "./Photos/proud_coder.svg";
+import proud_coder from "../Photos/proud_coder.svg";
 
 const AboutMe = ({ t }) => {
     return (
@@ -77,7 +77,13 @@ const AboutMe = ({ t }) => {
                                         type="submit"
                                         className="mt-3 p-3 btn"
                                     >
-                                        Download CV
+                                        <a
+                                            href="https://www.dropbox.com/s/k4wwuaasqf6vf0x/Marija%20Havaic%20Resume.pdf?dl=0"
+                                            target="_blank"
+                                            className="resumeLink"
+                                        >
+                                            Download CV
+                                        </a>
                                     </Button>
                                 </Col>
                             </Row>

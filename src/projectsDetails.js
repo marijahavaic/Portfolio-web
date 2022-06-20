@@ -1,10 +1,10 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
-import lyrics from "./Components/Photos/lyrics.png";
-import notestodos from "./Components/Photos/notestodos.png";
-import form from "./Components/Photos/form.png";
-import portfolio from "./Components/Photos/portfolio.png";
+import lyrics from "./Photos/lyrics.png";
+import notestodos from "./Photos/notestodos.png";
+import form from "./Photos/form.png";
+import portfolio from "./Photos/portfolio.png";
 import { nanoid } from "nanoid";
 
 export const projects = [
