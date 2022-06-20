@@ -50,7 +50,8 @@ const Skills = ({ t }) => {
                         <Image
                             variant="center"
                             src={programming}
-                            height="400px"
+                            height="100%"
+                            width="100%"
                             className="aboutmeImg"
                         />
                     </Col>
@@ -60,7 +61,8 @@ const Skills = ({ t }) => {
                         <Image
                             variant="center"
                             src={add_color}
-                            height="400px"
+                            height="100%"
+                            width="100%"
                             className="aboutmeImg"
                         />
                     </Col>

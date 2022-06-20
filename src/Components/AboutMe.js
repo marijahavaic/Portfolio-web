@@ -31,7 +31,8 @@ const AboutMe = ({ t }) => {
                         <Image
                             variant="center"
                             src={proud_coder}
-                            height="400px"
+                            height="100%"
+                            width="100%"
                             className="aboutmeImg"
                         />
                     </Col>

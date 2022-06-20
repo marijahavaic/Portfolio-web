@@ -4,6 +4,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import lyrics from "./Components/Photos/lyrics.png";
 import notestodos from "./Components/Photos/notestodos.png";
 import form from "./Components/Photos/form.png";
+import portfolio from "./Components/Photos/portfolio.png";
 import { nanoid } from "nanoid";
 
 export const projects = [
@@ -57,17 +58,17 @@ export const projects = [
     {
         id: nanoid(),
         slug: "portfolio",
-        image: lyrics,
+        image: portfolio,
         title: "Portfoilo Page",
         text: `React mobile friendly personal portfolio application which showcases a brief introduction, skills, projects and provides users with a contact form.`,
         badges: ["React", "React Bootstrap", "FontAwesome", "CSS3", "HTML5"],
         icons: [
             {
                 name: faGithub,
-                href: "https://github.com/marijahavaic/lyrics-searcher",
+                href: "https://github.com/marijahavaic/portfolio-app",
             },
             // { name: faYoutube, href: "github" },
-            { name: faGlobe, href: "github" },
+            { name: faGlobe, href: "http://marijahavaic.com/" },
         ],
     },
 ];
