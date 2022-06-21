@@ -26,6 +26,7 @@ $breakpoint-mobile: 480px;
 
   a {
     text-decoration: none;
+    outline: none;
   }
 
   .btn {
@@ -38,7 +39,6 @@ $breakpoint-mobile: 480px;
       transform: scale(0.9);
     }
     .resumeLink {
-      text-decoration: none;
       &:focus {
         color: #FFFFFF;
       }

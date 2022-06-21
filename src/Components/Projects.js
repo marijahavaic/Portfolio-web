@@ -51,7 +51,7 @@ const Projects = ({ darkMode, t }) => {
                 spaceBetween={1}
                 slidesPerView={1}
                 autoplay={{
-                    delay: 3000,
+                    delay: 10000,
                     disableOnInteraction: false,
                 }}
                 coverflowEffect={{
