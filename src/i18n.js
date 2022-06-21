@@ -75,7 +75,7 @@ const translationsCro = {
     home: "Početna",
     about: "O meni",
     aboutme: "Bok, ja sam",
-    aboutmetext: `Volim programirati web aplikacije koristeći JavaScript i React te imam dvije godine iskustva u tome.`,
+    aboutmetext: `Volim programirati web aplikacije koristeći JavaScript i React. Imam dvije godine iskustva rada i učenja u tom području.`,
     download: "Preuzmi CV",
     skills: "Vještine",
     designSkills: "Dizajn",
@@ -89,7 +89,7 @@ const translationsCro = {
     project_list: {
         lyrics: {
             title: "Lyrics Searcher",
-            text: `Vanilla JavaScript aplikacija koja koristi API treće strane za pronalaženje tekstova koji je započeo kao jednostavan DOM prikaz JSON API odgovora i postao web stranica za traženje i prikaz izvođača, teksta i uzorka pjesme.`,
+            text: `Vanilla JavaScript stranica koja koristi API za pronalaženje tekstova pjesama. Projekt je započeo kao jednostavan DOM prikaz JSON API odgovora i postao web stranica za traženje i prikaz izvođača, teksta i uzorka pjesme.`,
         },
         notes: {
             title: "Notes and Todos App",
@@ -97,11 +97,11 @@ const translationsCro = {
         },
         form: {
             title: "Sign Up Page",
-            text: `Ovo je stranica za prijavu koja koristi React Form hook.`,
+            text: `Ovo je stranica za prijavu koja koristi React form i custom hook.`,
         },
         portfolio: {
             title: "Portfoilo Page",
-            text: `React mobile friendly aplikacija za osobni portfolio koja prikazuje kratak uvod, vještine, projekte te pruža korisnicima kontakt obrazac.`,
+            text: `React mobile friendly aplikacija za osobni portfolio koja prikazuje kratak uvod, vještine, projekte te kontakt obrazac.`,
         },
     },
 };
