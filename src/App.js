@@ -46,6 +46,7 @@ function App() {
                         <Button
                             variant="danger"
                             className="position-fixed bottom-0 mb-3"
+                            style={{ zIndex: "10" }}
                         >
                             <FontAwesomeIcon
                                 icon={faArrowUp}

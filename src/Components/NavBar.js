@@ -31,7 +31,9 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                         id="home"
                         style={{ fontSize: "1.5rem", fontWeight: 600 }}
                     >
-                        {t("home")}
+                        <a id="aboutme" href="#aboutme" className="links">
+                            {t("home")}
+                        </a>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="basic-nav-dropdown">

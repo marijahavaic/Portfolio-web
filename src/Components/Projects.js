@@ -61,6 +61,7 @@ const Projects = ({ darkMode, t }) => {
                     modifier: 1,
                     slideShadows: true,
                 }}
+                style={{ zIndex: "1" }}
                 loop={true}
                 navigation={true}
                 pagination={{ clickable: true }}

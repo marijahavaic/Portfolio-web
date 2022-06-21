@@ -37,9 +37,8 @@ const AboutMe = ({ t }) => {
                         />
                     </Col>
                     <Col className="align-self-center px-3" xs="auto">
-                        <a id="aboutme" href="#aboutme" className="links">
-                            <h1>{t("aboutme")} Marija!</h1>
-                        </a>
+                        <h1>{t("aboutme")} Marija!</h1>
+
                         <h3>{t("aboutmetext")}</h3>
                         <Container
                             className="px-0 py-2 
@@ -85,7 +84,7 @@ const AboutMe = ({ t }) => {
                                             target="_blank"
                                             className="resumeLink"
                                         >
-                                            Download CV
+                                            {t("download")}
                                         </a>
                                     </Button>
                                 </Col>
