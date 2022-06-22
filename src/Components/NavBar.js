@@ -23,7 +23,7 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                 style={{ fontWeight: 400, fontSize: "1.25rem" }}
                 bg={darkMode ? ["light-color"] : ["dark-color"]}
                 variant={darkMode ? "light" : "dark"}
-                className="pt-3"
+                className="pt-5"
             >
                 <Container>
                     <Navbar.Brand
