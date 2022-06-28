@@ -50,11 +50,11 @@ $breakpoint-mobile: 480px;
   }
 }
 
-.App {
-  
-}
 
 @media (max-width: $breakpoint-mobile) {
+  .App {
+    padding: 10px;
+  }
   :root {
 
     h1 {
@@ -79,11 +79,12 @@ $breakpoint-mobile: 480px;
       margin: 0 auto;
     }
     .skills_icon {
-      font-size: 1rem;
+      font-size: 0.75rem;
     }
     .img {
       margin-bottom: 1rem;
     }
+
 
     .AboutMe {
       height: 800px;

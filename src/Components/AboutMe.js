@@ -53,6 +53,7 @@ const AboutMe = ({ t }) => {
                                     >
                                         <FontAwesomeIcon
                                             icon={faGithub}
+                                            className="icon"
                                             style={{
                                                 fontSize: "3.75rem",
                                                 paddingRight: "2rem",
@@ -66,6 +67,7 @@ const AboutMe = ({ t }) => {
                                     >
                                         <FontAwesomeIcon
                                             icon={faLinkedin}
+                                            className="icon"
                                             style={{ fontSize: "4rem" }}
                                         />
                                     </a>
@@ -79,7 +81,7 @@ const AboutMe = ({ t }) => {
                                         className="mt-3 p-3 btn"
                                     >
                                         <a
-                                            href="https://www.dropbox.com/s/k4wwuaasqf6vf0x/Marija%20Havaic%20Resume.pdf?dl=0"
+                                            href="https://www.dropbox.com/s/uh1i41nwpui1g1w/Marija%20Havaic%20Resume.pdf?dl=0"
                                             rel="noreferrer noopener"
                                             target="_blank"
                                             className="resumeLink"
