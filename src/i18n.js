@@ -5,7 +5,8 @@ const translationsEn = {
     home: "Home",
     about: "About Me",
     aboutme: "Hi, I'm",
-    aboutmetext: `I'm passionate about building web applications using JavaScript and React with experience of building web applications throughout two years.`,
+    aboutmetext: `I'm passionate about building efficient, mobile‑first responsive web applications using JavaScript and React with
+    experience of building them throughout a two‑year‑long career‑changing journey to a fulfilling role.`,
     download: "Download CV",
     skills: "Skills",
     designSkills: "Design",
@@ -19,19 +20,25 @@ const translationsEn = {
     project_list: {
         lyrics: {
             title: "Lyrics Searcher",
-            text: `Vanilla JavaScript application which uses a third-party API for finding lyrics which started as a simple DOM representation of JSON API responses and became a website for looking up and displaying the artist, lyrics and song sample.`,
+            text: `Vanilla JavaScript mobile‑friendly application which uses a fetch JSON API and async/await for asynchronous
+            API calls to fetch lyrics.`,
         },
         notes: {
             title: "Notes and Todos App",
-            text: `React application which allows a user to create, edit and delete post-it sticker notes and todos with checklists, filter by searching for word matches and allows the user to close and reopen the page without data loss.`,
+            text: `React mobile‑friendly application which allows a user to create, edit and delete sticky notes and todos using
+            functional components and hooks, saved in browser local storage (HTML5); filter by searching for word
+            matches.
+            `,
         },
         form: {
             title: "Sign Up Page",
-            text: `This is a Sign Up Page which uses React state hook form handling and validating React form inputs.`,
+            text: `Simple mobile‑friendly React sign‑up form which demonstrates the usage of React state hook and user input
+            validation.`,
         },
         portfolio: {
             title: "Portfoilo Page",
-            text: `React mobile friendly personal portfolio application which showcases a brief introduction, skills, projects and provides users with a contact form.`,
+            text: `React mobile‑friendly personal portfolio application which showcases a brief introduction, skills, projects and
+            provides users with multi‑language support using the i18next library and with a contact form.`,
         },
     },
 };

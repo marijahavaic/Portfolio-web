@@ -61,7 +61,14 @@ export const projects = [
         image: portfolio,
         title: "Portfoilo Page",
         text: `React mobile friendly personal portfolio application which showcases a brief introduction, skills, projects and provides users with a contact form.`,
-        badges: ["React", "React Bootstrap", "FontAwesome", "CSS3", "HTML5"],
+        badges: [
+            "React",
+            "React Bootstrap",
+            "FontAwesome",
+            "CSS3",
+            "HTML5",
+            "i18n",
+        ],
         icons: [
             {
                 name: faGithub,
