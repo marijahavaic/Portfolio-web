@@ -25,7 +25,7 @@ This website is made with ReactJS. It represents who I am and shows my skills an
 - CSS3
 - SASS
 - React JS
-- React Bootstrap
+- React Bootstrap 
 - Fontawesome
 - i18n
 - EmailJS

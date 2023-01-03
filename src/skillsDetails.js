@@ -6,6 +6,7 @@ import {
     faFontAwesome,
     faReact,
     faFigma,
+    faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import {
     faImage,
@@ -21,6 +22,7 @@ export const web_skills = [
     { icon: faCss3Alt, name: "CSS3" },
     { icon: faJs, name: "JavaScript" },
     { icon: faReact, name: "ReactJS" },
+    { icon: faPython, name: "Python" },
     { icon: faRoute, name: "React Router" },
     { icon: faBootstrap, name: "Bootstrap5" },
     { icon: faClone, name: "Material UI" },
