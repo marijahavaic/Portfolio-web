@@ -1,23 +1,30 @@
 # Portfolio App
 
-## Description
+- [Overview](#overview)
+    - [Description](#description)
+    - [Features](#features)
+    - [Built with](#built-with)
+    - [Getting started](#getting-started)
+- [Author](#author)
 
-This website is made with ReactJS.
+## Overview
+### Description
 
-## Features
+This website is made with ReactJS. It represents who I am and shows my skills and projects that I made.
+
+### Features
 
 - Download a document (CV)
 - Dark mode and light mode toggle
 - Translates to three languages (English, French, Croatian)
-- Sends and email through submiting a contact form
+- Sends and email through submitting a contact form
 
-## Built With
+### Built With
 
 - HTML5
 - CSS3
-- SCSS
-- JavaScript
-- React
+- SASS
+- React JS
 - React Bootstrap
 - Fontawesome
 - i18n
@@ -25,7 +32,7 @@ This website is made with ReactJS.
 - Swiper
 - React Flags
 
-## Getting Started
+### Getting Started
 
 To run the application locally use:
 
@@ -33,10 +40,7 @@ To run the application locally use:
 npm start
 ```
 
-<!-- ## Project Status
+## Author
 
-### Work in Progress
-
-
-### Known Issues
- -->
+- Website - [Marija Havaic](https://marijahavaic.com)
+- Frontend Mentor - [@marijahavaic](https://www.frontendmentor.io/profile/marijahavaic)
