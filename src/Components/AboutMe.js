@@ -77,6 +77,7 @@ const AboutMe = ({ t }) => {
                             <Row className="mb-5 pb-5">
                                 <Col>
                                     <Button
+                                        aria-label="Download CV"
                                         variant="danger"
                                         type="submit"
                                         className="mt-3 p-3 btn"

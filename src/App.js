@@ -44,6 +44,7 @@ function App() {
                 <Container className="h-100 d-flex justify-content-end pe-5">
                     <a href="#home">
                         <Button
+                            aria-label="Top"
                             variant="danger"
                             className="position-fixed bottom-0 mb-3"
                             style={{ zIndex: "10" }}
