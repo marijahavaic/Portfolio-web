@@ -79,6 +79,7 @@ const ProjectContainer = ({
                                             href={icon.href}
                                             target="_blank"
                                             rel="noreferrer noopener"
+                                            aria-label={icon.ariaLabel}
                                         >
                                             <FontAwesomeIcon
                                                 icon={icon.name}

@@ -61,6 +61,7 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                             />
                             <Form className="position-realtive top-0 end-0 p-2">
                                 <label id="switch" className="switch">
+                                    <label htmlFor="slider"></label>
                                     <input
                                         type="checkbox"
                                         onChange={handleToggle}

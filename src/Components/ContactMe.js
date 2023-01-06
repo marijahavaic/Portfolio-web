@@ -48,10 +48,11 @@ const ContactMe = ({ t }) => {
                     className="mb-3"
                     controlId="exampleForm.ControlInput1"
                 >
-                    <Form.Label htmlFor="user_name">{t("name")}</Form.Label>
+                    <Form.Label htmlFor="username">{t("name")}</Form.Label>
                     <Form.Control
                         type="text"
                         placeholder="John Doe"
+                        id="username"
                         name="user_name"
                         required
                     />
@@ -59,6 +60,7 @@ const ContactMe = ({ t }) => {
                     <Form.Control
                         type="email"
                         placeholder="name@example.com"
+                        id="useremail"
                         name="user_email"
                         required
                     />
@@ -66,6 +68,7 @@ const ContactMe = ({ t }) => {
                     <Form.Control
                         as="textarea"
                         rows={3}
+                        id="message"
                         name="message"
                         required
                     />

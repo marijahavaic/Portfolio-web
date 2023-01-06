@@ -51,6 +51,7 @@ const AboutMe = ({ t }) => {
                                         href="https://github.com/marijahavaic"
                                         rel="noreferrer noopener"
                                         target="_blank"
+                                        aria-label="Link to Marija Havaic Github profile page which opens in a new tab"
                                     >
                                         <FontAwesomeIcon
                                             icon={faGithub}
@@ -65,6 +66,7 @@ const AboutMe = ({ t }) => {
                                         href="https://www.linkedin.com/in/marija-havaic/"
                                         rel="noreferrer noopener"
                                         target="_blank"
+                                        aria-label="Link to Marija Havaic LinkedIn profile page which opens in a new tab"
                                     >
                                         <FontAwesomeIcon
                                             icon={faLinkedin}
@@ -87,6 +89,7 @@ const AboutMe = ({ t }) => {
                                             rel="noreferrer noopener"
                                             target="_blank"
                                             className="resumeLink"
+                                            aria-label="Link to Dropbox folder with CV"
                                         >
                                             {t("download")}
                                         </a>

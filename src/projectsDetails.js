@@ -6,6 +6,7 @@ import notestodos from "./Photos/notestodos.png";
 import form from "./Photos/form.png";
 import portfolio from "./Photos/portfolio.png";
 import { nanoid } from "nanoid";
+import FormLabel from "react-bootstrap/esm/FormLabel";
 
 export const projects = [
     {
@@ -18,11 +19,13 @@ export const projects = [
             {
                 name: faGithub,
                 href: "https://github.com/marijahavaic/lyrics-searcher",
+                ariaLabel: "Link to source code of Lyrics Searcher app",
             },
             // { name: faYoutube, href: "github" },
             {
                 name: faGlobe,
                 href: "http://lyricssearcher.marijahavaic.com/",
+                ariaLabel: "Link to the live page of Lyrics Searcher app",
             },
         ],
     },
@@ -36,9 +39,14 @@ export const projects = [
             {
                 name: faGithub,
                 href: "https://github.com/marijahavaic/notes-todo-app",
+                ariaLabel: "Link to source code of Notes Todo app",
             },
             // { name: faYoutube, href: "github" },
-            { name: faGlobe, href: "http://notes.marijahavaic.com/" },
+            {
+                name: faGlobe,
+                href: "http://notes.marijahavaic.com/",
+                ariaLabel: "Link to the live page of Notes Todo app",
+            },
         ],
     },
     {
@@ -53,9 +61,14 @@ export const projects = [
             {
                 name: faGithub,
                 href: "https://github.com/marijahavaic/form-app",
+                ariaLabel: "Link to source code of Form app",
             },
             // { name: faYoutube, href: "github" },
-            { name: faGlobe, href: "http://form.marijahavaic.com/" },
+            {
+                name: faGlobe,
+                href: "http://form.marijahavaic.com/",
+                ariaLabel: "Link to the live page of the Form app",
+            },
         ],
     },
     {
@@ -77,9 +90,14 @@ export const projects = [
             {
                 name: faGithub,
                 href: "https://github.com/marijahavaic/portfolio-app",
+                ariaLabel: "Link to source code of Portfolio app",
             },
             // { name: faYoutube, href: "github" },
-            { name: faGlobe, href: "http://marijahavaic.com/" },
+            {
+                name: faGlobe,
+                href: "http://marijahavaic.com/",
+                ariaLabel: "Link to the live page of the Portfolio app",
+            },
         ],
     },
     // {
