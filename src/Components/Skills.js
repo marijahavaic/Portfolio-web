@@ -27,9 +27,9 @@ const Skills = ({ t }) => {
                     >
                         <Container>
                             <h2 className="pb-3 mb-3">Front-End</h2>
-                            <Row xs={2} md={3} lg={4}>
+                            <Row xs={1} md={3} lg={4}>
                                 {web_skills.map((skill, i) => (
-                                    <Col key={i} className="skills_icon">
+                                    <Col key={i} className="skills_icon m-2">
                                         <FontAwesomeIcon
                                             icon={skill.icon}
                                             style={{
@@ -69,9 +69,9 @@ const Skills = ({ t }) => {
                     <Col className="align-self-center">
                         <Container>
                             <h2 className="mb-4">{t("designSkills")}</h2>
-                            <Row xs={2} md={3} lg={4}>
+                            <Row xs={1} md={3} lg={4}>
                                 {design_skills.map((skill, i) => (
-                                    <Col key={i} className="skills_icon">
+                                    <Col key={i} className="skills_icon m-2">
                                         <FontAwesomeIcon
                                             icon={skill.icon}
                                             style={{

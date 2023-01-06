@@ -78,4 +78,23 @@ export const projects = [
             { name: faGlobe, href: "http://marijahavaic.com/" },
         ],
     },
+    // {
+    //     id: nanoid(),
+    //     slug: "order",
+    //     image: lyrics,
+    //     title: "Frontend Mentor - Order summary card solution",
+    //     text: "This is a solution to the Order summary card challenge on Frontend Mentor.",
+    //     badges: ["Javascript", "CSS3", "HTML5"],
+    //     icons: [
+    //         {
+    //             name: faGithub,
+    //             href: "https://github.com/marijahavaic/frontend-mentor-order-summary-component",
+    //         },
+    //         // { name: faYoutube, href: "github" },
+    //         {
+    //             name: faGlobe,
+    //             href: "https://marijahavaic.github.io/frontend-mentor-order-summary-component/",
+    //         },
+    //     ],
+    // },
 ];

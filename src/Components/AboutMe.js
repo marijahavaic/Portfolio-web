@@ -81,7 +81,7 @@ const AboutMe = ({ t }) => {
                                         className="mt-3 p-3 btn"
                                     >
                                         <a
-                                            href="https://www.dropbox.com/s/uh1i41nwpui1g1w/Marija%20Havaic%20Resume.pdf?dl=0"
+                                            href="https://www.dropbox.com/sh/hd15qbf1mxgpswa/AACasefRk5LjY_NLE104T39ua?dl=0"
                                             rel="noreferrer noopener"
                                             target="_blank"
                                             className="resumeLink"
