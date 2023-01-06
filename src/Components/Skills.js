@@ -53,6 +53,7 @@ const Skills = ({ t }) => {
                             height="100%"
                             width="100%"
                             className="aboutmeImg img"
+                            alt=""
                         />
                     </Col>
                 </Row>
@@ -64,6 +65,7 @@ const Skills = ({ t }) => {
                             height="100%"
                             width="100%"
                             className="aboutmeImg img"
+                            alt=""
                         />
                     </Col>
                     <Col className="align-self-center">

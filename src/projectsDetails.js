@@ -12,6 +12,7 @@ export const projects = [
         id: nanoid(),
         slug: "lyrics",
         image: lyrics,
+        alt: "",
         badges: ["Javascript", "CSS3", "HTML5"],
         icons: [
             {
@@ -29,6 +30,7 @@ export const projects = [
         id: nanoid(),
         slug: "notes",
         image: notestodos,
+        alt: "",
         badges: ["React", "FontAwesome", "CSS3", "HTML5"],
         icons: [
             {
@@ -43,6 +45,7 @@ export const projects = [
         id: nanoid(),
         slug: "form",
         image: form,
+        alt: "",
         title: "Sign Up Page",
         text: `This is a Sign Up Page which uses React state hook form handling and validating React form inputs.`,
         badges: ["React", "FontAwesome", "CSS3", "HTML5"],
@@ -59,6 +62,7 @@ export const projects = [
         id: nanoid(),
         slug: "portfolio",
         image: portfolio,
+        alt: "",
         title: "Portfoilo Page",
         text: `React mobile friendly personal portfolio application which showcases a brief introduction, skills, projects and provides users with a contact form.`,
         badges: [

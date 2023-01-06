@@ -23,6 +23,7 @@ const ProjectContainer = ({
     text,
     badges,
     icons,
+    altText,
 }) => {
     return (
         <Container
@@ -44,6 +45,7 @@ const ProjectContainer = ({
                             variant="top"
                             src={image}
                             className="w-100 h-100 mb-xs-1"
+                            alt={altText}
                         />
                     </Container>
                 </Col>
