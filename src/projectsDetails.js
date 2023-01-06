@@ -6,7 +6,6 @@ import notestodos from "./Photos/notestodos.png";
 import form from "./Photos/form.png";
 import portfolio from "./Photos/portfolio.png";
 import { nanoid } from "nanoid";
-import FormLabel from "react-bootstrap/esm/FormLabel";
 
 export const projects = [
     {

@@ -26,7 +26,7 @@ const Skills = ({ t }) => {
                         md={{ order: "first" }}
                     >
                         <Container>
-                            <h2 className="pb-3 mb-3">Front-End</h2>
+                            <h2 className="pb-3 mb-3 red">Front-End</h2>
                             <Row xs={1} md={3} lg={4}>
                                 {web_skills.map((skill, i) => (
                                     <Col key={i} className="skills_icon m-2">
@@ -57,7 +57,7 @@ const Skills = ({ t }) => {
                         />
                     </Col>
                 </Row>
-                <Row xs={1} md={2} className=" align-items-center ">
+                <Row xs={1} md={2} className="align-items-center ">
                     <Col className="justify-content-center align-self-center">
                         <Image
                             variant="center"
@@ -70,7 +70,7 @@ const Skills = ({ t }) => {
                     </Col>
                     <Col className="align-self-center">
                         <Container>
-                            <h2 className="mb-4">{t("designSkills")}</h2>
+                            <h2 className="mb-4 red">{t("designSkills")}</h2>
                             <Row xs={1} md={3} lg={4}>
                                 {design_skills.map((skill, i) => (
                                     <Col key={i} className="skills_icon m-2">

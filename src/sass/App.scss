@@ -50,6 +50,15 @@ $breakpoint-mobile: 480px;
   }
 }
 
+.App {
+  .AboutMe {
+    p {
+      font-size: 2.25rem;
+      font-weight: 300;
+    }
+  }
+}
+
 
 @media (max-width: $breakpoint-mobile) {
   .App {
@@ -98,7 +107,7 @@ $breakpoint-mobile: 480px;
 .Dark-mode {
     background-color: $dark-color;
     color: $light-color;
-    h2 {
+    .red {
        color: $third-color;
     }
     a {

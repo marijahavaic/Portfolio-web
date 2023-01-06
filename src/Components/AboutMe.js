@@ -40,7 +40,7 @@ const AboutMe = ({ t }) => {
                     <Col className="align-self-center px-3" xs="auto">
                         <h1>{t("aboutme")} Marija!</h1>
 
-                        <h3>{t("aboutmetext")}</h3>
+                        <p>{t("aboutmetext")}</p>
                         <Container
                             className="px-0 py-2 
                         d-flex flex-column justify-content-md-start align-items-md-start justify-content-center align-items-center"
