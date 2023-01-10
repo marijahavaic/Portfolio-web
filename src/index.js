@@ -7,11 +7,18 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./i18n";
+import ErrorPage from "./Components/error-page";
+import Skills from "./Components/Skills";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: "/skills",
+        element: <Skills />,
     },
 ]);
 

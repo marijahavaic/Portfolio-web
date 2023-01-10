@@ -11,8 +11,10 @@ import programming from "../Photos/programming.svg";
 import add_color from "../Photos/add_color.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslation } from "react-i18next";
 
-const Skills = ({ t }) => {
+const Skills = () => {
+    const { t, i18n } = useTranslation();
     return (
         <div className="Skills my-md-5 py-md-5 mt-5 pt-5 mb-0 pb-0">
             <Container className="justify-content-center align-items-center text-center my-md-5 py-md-5 my-xs-1 py-xs-1">
