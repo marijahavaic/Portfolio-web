@@ -40,8 +40,6 @@ function App() {
                     languageChange={languageChange}
                 />
                 <Outlet />
-                {/* 
-                <AboutMe t={t} /> */}
 
                 <Container className="h-100 d-flex justify-content-end pe-5">
                     <a href="#home">
@@ -64,7 +62,7 @@ function App() {
                     <div style={{ height: "2rem" }}></div>
                 </Container>
 
-                {/* <Skills t={t} />
+                {/* 
 
                 <Projects darkMode={darkMode} t={t} />
 

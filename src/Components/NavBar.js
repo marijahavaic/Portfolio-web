@@ -9,6 +9,8 @@ import Form from "react-bootstrap/Form";
 
 import "../sass/App.scss";
 
+import { Link } from "react-router-dom";
+
 const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
     const [select, setSelect] = useState("");
     const onSelect = (code) => {
@@ -31,16 +33,18 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                         id="home"
                         style={{ fontSize: "1.5rem", fontWeight: 600 }}
                     >
-                        <a id="aboutme" href="#aboutme" className="links">
-                            {t("home")}
-                        </a>
+                        <Link to={"/"}>{t("home")}</Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="basic-nav-dropdown">
                         <Nav className="me-auto"></Nav>
                         <Nav>
-                            <Nav.Link href="#aboutme">{t("about")}</Nav.Link>
-                            <Nav.Link href="#skills">{t("skills")}</Nav.Link>
+                            <Nav.Link>
+                                <Link to={"/aboutme"}>{t("about")}</Link>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <Link to={"/skills"}>{t("skills")}</Link>
+                            </Nav.Link>
                             <Nav.Link href="#projects">
                                 {t("projects")}
                             </Nav.Link>
