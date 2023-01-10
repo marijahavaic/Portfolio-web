@@ -9,16 +9,23 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./i18n";
 import ErrorPage from "./Components/error-page";
 import Skills from "./Components/Skills";
+import AboutMe from "./Components/AboutMe";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
         errorElement: <ErrorPage />,
-    },
-    {
-        path: "/skills",
-        element: <Skills />,
+        children: [
+            {
+                path: "/aboutme",
+                element: <AboutMe />,
+            },
+            {
+                path: "/skills",
+                element: <Skills />,
+            },
+        ],
     },
 ]);
 

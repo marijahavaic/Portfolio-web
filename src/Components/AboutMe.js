@@ -14,7 +14,10 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import proud_coder from "../Photos/proud_coder.svg";
 
-const AboutMe = ({ t }) => {
+import { useTranslation } from "react-i18next";
+
+const AboutMe = () => {
+    const { t, i18n } = useTranslation();
     return (
         <div
             className="AboutMe my-md-5 py-md-5 my-2 py-2 d-flex align-items-md-center"
