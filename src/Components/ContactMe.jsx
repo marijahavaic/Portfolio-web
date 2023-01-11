@@ -37,11 +37,8 @@ const ContactMe = () => {
     };
 
     return (
-        <div
-            className="ContactMe d-flex flex-column justify-content-center align-items-center my-md-5 py-md-5  mb-5 pb-5 mt-0 pt-0"
-            style={{ height: "60vh" }}
-        >
-            <Form className="w-75 h-100" onSubmit={sendEmail} ref={form}>
+        <div className="ContactMe d-flex flex-column justify-content-center align-items-center my-md-5 py-md-5  mb-5 pb-5 mt-0 pt-0">
+            <Form className="w-50 h-100" onSubmit={sendEmail} ref={form}>
                 <h1 className="text-center">
                     <a id="contactme" href="#contactme">
                         {t("contactMe")}
@@ -81,7 +78,7 @@ const ContactMe = () => {
                     as="input"
                     type="submit"
                     value={t("send")}
-                    className="btn mb-5"
+                    className="btn"
                     variant="danger"
                 />
             </Form>
