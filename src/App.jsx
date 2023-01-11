@@ -6,10 +6,12 @@ import Footer from "./Components/Footer";
 
 import { useTranslation } from "react-i18next";
 import { Outlet } from "react-router";
+import { useNavigation } from "react-router-dom";
 
 function App() {
     const [darkMode, setDarkMode] = useState(false);
     const { t, i18n } = useTranslation();
+    const navigation = useNavigation();
 
     const handleToggle = () => {
         setDarkMode(!darkMode);
@@ -29,9 +31,13 @@ function App() {
                     languageChange={languageChange}
                 />
                 {/* Render routes */}
-                <Outlet />
+                <div
+                    className={navigation.state === "loading" ? "loading" : ""}
+                >
+                    <Outlet />
 
-                <Footer t={t} />
+                    <Footer t={t} />
+                </div>
             </div>
         </Suspense>
     );
