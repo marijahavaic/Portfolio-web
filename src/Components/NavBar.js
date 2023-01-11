@@ -40,7 +40,7 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                         <Nav className="me-auto"></Nav>
                         <Nav>
                             <Nav.Link>
-                                <Link to={"/aboutme"}>{t("about")}</Link>
+                                <Link to={"/"}>{t("about")}</Link>
                             </Nav.Link>
                             <Nav.Link>
                                 <Link to={"/skills"}>{t("skills")}</Link>

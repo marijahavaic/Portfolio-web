@@ -41,7 +41,7 @@ function App() {
                 />
                 <Outlet />
 
-                <Container className="h-100 d-flex justify-content-end pe-5">
+                {/* <Container className="h-100 d-flex justify-content-end pe-5">
                     <a href="#home">
                         <Button
                             aria-label="Top"
@@ -55,7 +55,7 @@ function App() {
                             />
                         </Button>
                     </a>
-                </Container>
+                </Container> */}
 
                 {/* Space fix */}
                 <Container className="p-5 h-25">
@@ -66,9 +66,9 @@ function App() {
 
                 <Projects darkMode={darkMode} t={t} />
 
-                <ContactMe t={t} />
+                <ContactMe t={t} />*/}
 
-                <Footer t={t} /> */}
+                <Footer t={t} />
             </div>
         </Suspense>
     );
