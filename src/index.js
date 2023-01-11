@@ -12,6 +12,7 @@ import Skills from "./Components/Skills";
 import AboutMe from "./Components/AboutMe";
 import Projects from "./Components/Projects";
 import ContactMe from "./Components/ContactMe";
+import ProjectContainer from "./Components/ProjectContainer";
 
 const router = createBrowserRouter([
     {
@@ -21,7 +22,6 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                // path: "/aboutme",
                 element: <AboutMe />,
             },
             {
@@ -31,6 +31,12 @@ const router = createBrowserRouter([
             {
                 path: "/projects",
                 element: <Projects />,
+                children: [
+                    {
+                        path: "/projects/:projectId",
+                        element: <ProjectContainer />,
+                    },
+                ],
             },
             {
                 path: "/contactme",

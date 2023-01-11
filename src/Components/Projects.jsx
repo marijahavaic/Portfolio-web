@@ -29,7 +29,7 @@ import { projects } from "../projectsDetails";
 import ProjectContainer from "./ProjectContainer";
 
 import { useTranslation } from "react-i18next";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 const Projects = ({ darkMode }) => {
     const { t } = useTranslation();

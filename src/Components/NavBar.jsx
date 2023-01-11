@@ -29,7 +29,6 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
             >
                 <Container>
                     <Navbar.Brand
-                        href="#home"
                         id="home"
                         style={{ fontSize: "1.5rem", fontWeight: 600 }}
                     >
@@ -39,17 +38,17 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                     <Navbar.Collapse id="basic-nav-dropdown">
                         <Nav className="me-auto"></Nav>
                         <Nav>
-                            <Nav.Link>
-                                <Link to={"/"}>{t("about")}</Link>
+                            <Nav.Link as={Link} to={"/"}>
+                                {t("about")}
                             </Nav.Link>
-                            <Nav.Link>
-                                <Link to={"/skills"}>{t("skills")}</Link>
+                            <Nav.Link as={Link} to={"/skills"}>
+                                {t("skills")}
                             </Nav.Link>
-                            <Nav.Link>
-                                <Link to={"/projects"}>{t("projects")}</Link>
+                            <Nav.Link as={Link} to={"/projects"}>
+                                {t("projects")}
                             </Nav.Link>
-                            <Nav.Link>
-                                <Link to={"/contactme"}>{t("contactMe")}</Link>
+                            <Nav.Link as={Link} to={"/contactme"}>
+                                {t("contactMe")}
                             </Nav.Link>
                             <ReactFlagsSelect
                                 selected={select}
