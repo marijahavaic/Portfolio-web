@@ -8,7 +8,10 @@ import Button from "react-bootstrap/Button";
 
 import "../sass/App.scss";
 
-const ContactMe = ({ t }) => {
+import { useTranslation } from "react-i18next";
+
+const ContactMe = () => {
+    const { t } = useTranslation();
     const form = useRef();
 
     const sendEmail = (e) => {

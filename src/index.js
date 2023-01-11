@@ -10,6 +10,8 @@ import "./i18n";
 import ErrorPage from "./Components/error-page";
 import Skills from "./Components/Skills";
 import AboutMe from "./Components/AboutMe";
+import Projects from "./Components/Projects";
+import ContactMe from "./Components/ContactMe";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
             {
                 path: "/skills",
                 element: <Skills />,
+            },
+            {
+                path: "/projects",
+                element: <Projects />,
+            },
+            {
+                path: "/contactme",
+                element: <ContactMe />,
             },
         ],
     },

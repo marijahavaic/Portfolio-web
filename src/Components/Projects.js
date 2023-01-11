@@ -28,9 +28,11 @@ import { projects } from "../projectsDetails";
 
 import ProjectContainer from "./ProjectContainer";
 
+import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const Projects = ({ darkMode, t }) => {
+const Projects = ({ darkMode }) => {
+    const { t } = useTranslation();
     return (
         <div className="Projects">
             <h1 className="p-3 text-center">

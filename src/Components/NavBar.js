@@ -45,11 +45,11 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                             <Nav.Link>
                                 <Link to={"/skills"}>{t("skills")}</Link>
                             </Nav.Link>
-                            <Nav.Link href="#projects">
-                                {t("projects")}
+                            <Nav.Link>
+                                <Link to={"/projects"}>{t("projects")}</Link>
                             </Nav.Link>
-                            <Nav.Link href="#contactme">
-                                {t("contactMe")}
+                            <Nav.Link>
+                                <Link to={"/contactme"}>{t("contactMe")}</Link>
                             </Nav.Link>
                             <ReactFlagsSelect
                                 selected={select}

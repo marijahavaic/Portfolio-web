@@ -17,7 +17,7 @@ import proud_coder from "../Photos/proud_coder.svg";
 import { useTranslation } from "react-i18next";
 
 const AboutMe = () => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     return (
         <div
             className="AboutMe my-md-5 py-md-5 my-2 py-2 d-flex align-items-md-center"
