@@ -6,6 +6,7 @@ import lyrics from "./Photos/lyrics.png";
 import notestodos from "./Photos/notes-todos.png";
 import form from "./Photos/form.png";
 import portfolio from "./Photos/portfolio.png";
+import budget from "./Photos/budget-tracker.png";
 import order from "./Photos/order-summary-component.png";
 import intro from "./Photos/intro-section-with-dropdown-navigation.png";
 import sunnyside from "./Photos/sunnyside-agency-landing-page.png";
@@ -110,6 +111,38 @@ export const projects = [
                 tooltip: "Live Page",
                 ariaLabel: "Link to the live page of the Portfolio app",
             },
+        ],
+    },
+    {
+        id: nanoid(),
+        slug: "budget",
+        image: budget,
+        alt: "",
+        title: "Budget Tracking App",
+        text: `This is the final project for Harvard CS50x Course CS50's Introduction to Computer Science. This is a budget tracking app which uses a bank document in CSV format to show current balance, total spending, balance trends and spending trends.`,
+        badges: [
+            "React",
+            "React Router",
+            "Recharts",
+            "Material UI",
+            "FontAwesome",
+            "SASS",
+            "HTML5",
+        ],
+        icons: [
+            // {
+            //     name: faCode,
+            //     href: "https://github.com/marijahavaic/portfolio-app",
+            //     tooltip: "Source Code",
+            //     ariaLabel: "Link to source code of Portfolio app",
+            // },
+            // // { name: faYoutube, href: "github" },
+            // {
+            //     name: faGlobe,
+            //     href: "http://marijahavaic.com/",
+            //     tooltip: "Live Page",
+            //     ariaLabel: "Link to the live page of the Portfolio app",
+            // },
         ],
     },
     {

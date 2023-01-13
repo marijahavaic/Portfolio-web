@@ -40,6 +40,10 @@ const translationsEn = {
             text: `React mobile‑friendly personal portfolio application which showcases a brief introduction, skills, projects and
             provides users with multi‑language support using the i18next library and with a contact form.`,
         },
+        budget: {
+            title: "Budget Tracking App",
+            text: `This is the final project for Harvard CS50x Course CS50's Introduction to Computer Science. This is a budget tracking app which uses a bank document in CSV format to show current balance, total spending, balance trends and spending trends.`,
+        },
         order: {
             title: "Order summary card",
             text: "This is a solution to the Order summary card challenge on Frontend Mentor.",
