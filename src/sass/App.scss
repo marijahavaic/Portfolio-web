@@ -81,6 +81,7 @@ $breakpoint-mobile: 600px;
 
         p {
             font-size: 1.4rem;
+            text-align: center;
         }
         .aboutmeImg {
             height: 230px;
@@ -95,6 +96,8 @@ $breakpoint-mobile: 600px;
 
         .AboutMe {
             height: 800px;
+            p {
+            }
         }
         .Skills {
             height: auto;
