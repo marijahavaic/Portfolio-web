@@ -23,8 +23,8 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                 collapseOnSelect
                 expand="lg"
                 style={{ fontWeight: 400, fontSize: "1.25rem" }}
-                bg={darkMode ? ["light-color"] : ["dark-color"]}
-                variant={darkMode ? "light" : "dark"}
+                bg={darkMode ? ["dark-color"] : ["light-color"]}
+                variant={darkMode ? "dark" : "light"}
                 className="pt-3 pt-md-4 "
             >
                 <Container>
@@ -60,7 +60,7 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                                     FR: "Français",
                                     HR: "Hrvatski",
                                 }}
-                                className={darkMode ? "" : "darkModeSelect"}
+                                className={darkMode ? "darkModeSelect" : ""}
                             />
                             <Form className="position-realtive top-0 end-0 p-2">
                                 <label id="switch" className="switch">
@@ -69,6 +69,7 @@ const NavBar = ({ darkMode, handleToggle, t, languageChange }) => {
                                         type="checkbox"
                                         onChange={handleToggle}
                                         id="slider"
+                                        checked={darkMode}
                                     />
                                     <span className="slider round"></span>
                                 </label>
