@@ -40,6 +40,22 @@ const translationsEn = {
             text: `React mobile‑friendly personal portfolio application which showcases a brief introduction, skills, projects and
             provides users with multi‑language support using the i18next library and with a contact form.`,
         },
+        order: {
+            title: "Order summary card",
+            text: "This is a solution to the Order summary card challenge on Frontend Mentor.",
+        },
+        intro: {
+            title: "Intro section with dropdown navigation solution",
+            text: "This is a solution to the Intro section with dropdown navigation challenge on Frontend Mentor.",
+        },
+        sunnyside: {
+            title: "Sunnyside agency landing page solution",
+            text: "This is a solution to the Sunnyside agency landing page challenge on Frontend Mentor.",
+        },
+        advice: {
+            title: "Advice generator app solution",
+            text: "This is a solution to the Advice generator app challenge on Frontend Mentor.",
+        },
     },
 };
 

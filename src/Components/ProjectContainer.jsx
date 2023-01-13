@@ -13,7 +13,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ProjectIcon from "./ProjectIcon";
 
 const ProjectContainer = ({
     id,
@@ -75,19 +75,7 @@ const ProjectContainer = ({
                             <Row>
                                 {icons.map((icon, i) => (
                                     <Col key={i} className="icon links">
-                                        <a
-                                            href={icon.href}
-                                            target="_blank"
-                                            rel="noreferrer noopener"
-                                            aria-label={icon.ariaLabel}
-                                        >
-                                            <FontAwesomeIcon
-                                                icon={icon.name}
-                                                style={{
-                                                    fontSize: "2.25rem",
-                                                }}
-                                            />
-                                        </a>
+                                        <ProjectIcon icon={icon} />
                                     </Col>
                                 ))}
                             </Row>
