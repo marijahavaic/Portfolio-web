@@ -49,15 +49,15 @@ const translationsEn = {
             text: "This is a solution to the Order summary card challenge on Frontend Mentor.",
         },
         intro: {
-            title: "Intro section with dropdown navigation solution",
+            title: "Intro section with dropdown navigation",
             text: "This is a solution to the Intro section with dropdown navigation challenge on Frontend Mentor.",
         },
         sunnyside: {
-            title: "Sunnyside agency landing page solution",
+            title: "Sunnyside agency landing page",
             text: "This is a solution to the Sunnyside agency landing page challenge on Frontend Mentor.",
         },
         advice: {
-            title: "Advice generator app solution",
+            title: "Advice generator app",
             text: "This is a solution to the Advice generator app challenge on Frontend Mentor.",
         },
     },
@@ -95,6 +95,26 @@ const translationsFr = {
             title: "Site de Portfolio",
             text: `React Application de portefeuille personnel conviviale pour mobile qui présente une brève introduction, des compétences, des projets et fournit aux utilisateurs un formulaire de contact.`,
         },
+        budget: {
+            title: "Application de suivi budgétaire",
+            text: `Il s’agit du projet final du cours Harvard CS50 Introduction to Computer Science. C'est une application de suivi budgétaire qui utilise un document bancaire en format CSV pour montrer le solde actuel, les dépenses totales, les tendances des soldes et les tendances des dépenses.`,
+        },
+        order: {
+            title: "Carte récapitulative de commande",
+            text: "Il s’agit d’une solution au problème de carte récapitulative de commande dans Frontend Mentor.",
+        },
+        intro: {
+            title: "Introduction avec de navigation déroulante",
+            text: "Il s’agit d’une solution à la section Intro avec un défi de navigation déroulante dans Frontend Mentor.",
+        },
+        sunnyside: {
+            title: "Page de renvoi de l’agence Sunnyside",
+            text: "Il s’agit d’une solution au défi de la page de renvoi de l’agence Sunnyside sur Frontend Mentor.",
+        },
+        advice: {
+            title: "Application de générateur de conseils",
+            text: "Il s’agit d’une solution au défi de l’application Générateur de conseils sur Frontend Mentor.",
+        },
     },
 };
 
@@ -123,12 +143,32 @@ const translationsCro = {
             text: `React aplikacija koja korisniku omogućuje stvaranje, uređivanje i brisanje bilježaka i zadataka s todo listama. Moguće je filtrirati po ključnim riječima te je omogućeno korisniku da zatvori i ponovno otvori stranicu bez gubitka podataka.`,
         },
         form: {
-            title: "Sign Up Page",
+            title: "Forma za registraciju",
             text: `Ovo je stranica za prijavu koja koristi React form i custom hook.`,
         },
         portfolio: {
-            title: "Portfoilo Page",
+            title: "Portfoilo",
             text: `React mobile friendly aplikacija za osobni portfolio koja prikazuje kratak uvod, vještine, projekte te kontakt obrazac.`,
+        },
+        budget: {
+            title: "Aplikacija za pracenje budžeta",
+            text: `Završni projekt za tečaj na Harvardu CS50x - CS50's Introduction to Computer Science. Aplikacija koristi bankovne dokumente u CSV formatu iz kojih generira podatke koji prikazuju trenutno stanje računa, stanje cjelokupne potrošnje,  stanje računa tijekom vremena te navike potrošnje.`,
+        },
+        order: {
+            title: "Kartica sažetka narudžbe",
+            text: "Ovo je rješenje za izazov kartice sa sažetkom narudžbe na Frontend Mentoru.",
+        },
+        intro: {
+            title: "Uvodni odjeljak s padajućim izbornikom za navigaciju",
+            text: "Ovo je rješenje za izazov uvodni odjeljak s padajućim izbornikom na Frontend Mentoru.",
+        },
+        sunnyside: {
+            title: "Landing page agencije Sunnyside",
+            text: "Ovo je rješenje za izazov landing page agencije Sunnyside na Frontend Mentoru.",
+        },
+        advice: {
+            title: "Aplikacija za generiranje savjeta",
+            text: "Ovo je rješenje za izazov aplikacije generatora savjeta na Frontend Mentoru.",
         },
     },
 };
