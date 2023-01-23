@@ -2,15 +2,15 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 
-import lyrics from "./Photos/lyrics.png";
-import notestodos from "./Photos/notes-todos.png";
-import form from "./Photos/form.png";
-import portfolio from "./Photos/portfolio.png";
-import budget from "./Photos/budget-tracker.png";
-import order from "./Photos/order-summary-component.png";
-import intro from "./Photos/intro-section-with-dropdown-navigation.png";
-import sunnyside from "./Photos/sunnyside-agency-landing-page.png";
-import advice from "./Photos/advice-generator.png";
+import lyrics from "./photos/lyrics.png";
+import notestodos from "./photos/notes-todos.png";
+import form from "./photos/form.png";
+import portfolio from "./photos/portfolio.png";
+import budget from "./photos/budget-tracker.png";
+import order from "./photos/order-summary-component.png";
+import intro from "./photos/intro-section-with-dropdown-navigation.png";
+import sunnyside from "./photos/sunnyside-agency-landing-page.png";
+import advice from "./photos/advice-generator.png";
 import { nanoid } from "nanoid";
 
 export const projects = [

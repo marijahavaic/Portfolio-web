@@ -12,7 +12,7 @@ import Image from "react-bootstrap/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import proud_coder from "../Photos/proud_coder.svg";
+import proud_coder from "../photos/proud_coder.svg";
 
 import { useTranslation } from "react-i18next";
 
