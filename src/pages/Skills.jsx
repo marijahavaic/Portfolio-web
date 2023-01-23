@@ -1,6 +1,6 @@
 import React from "react";
 
-import { web_skills, design_skills } from "../skillsDetails";
+import { web_skills, design_skills } from "../data/skillsDetails";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

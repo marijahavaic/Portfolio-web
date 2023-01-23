@@ -3,12 +3,12 @@ import React from "react";
 import "../sass/App.scss";
 
 import { useTranslation } from "react-i18next";
-import ProjectSwiper from "./ProjectSwiper";
+import ProjectSwiper from "../components/ProjectSwiper";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
-import { projects } from "../projectsDetails";
+import { projects } from "../data/projectsDetails";
 
-import ProjectContainer from "./ProjectContainer";
+import ProjectContainer from "../components/ProjectContainer";
 
 const Projects = ({ darkMode }) => {
     const { t } = useTranslation();

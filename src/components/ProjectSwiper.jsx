@@ -24,7 +24,7 @@ import "swiper/scss/pagination";
 
 import { useTranslation } from "react-i18next";
 
-import { projects } from "../projectsDetails";
+import { projects } from "../data/projectsDetails";
 
 import ProjectContainer from "./ProjectContainer";
 

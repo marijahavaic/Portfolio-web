@@ -1,8 +1,8 @@
 import React, { Suspense, useState } from "react";
 import "./sass/App.scss";
 
-import NavBar from "./Components/NavBar";
-import Footer from "./Components/Footer";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 import { useThemeDetector } from "./hooks/ThemeDetector";
 

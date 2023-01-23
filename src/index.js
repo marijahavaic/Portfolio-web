@@ -7,12 +7,12 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./i18n";
-import ErrorPage from "./Components/error-page";
-import Skills from "./Components/Skills";
-import AboutMe from "./Components/AboutMe";
-import Projects from "./Components/Projects";
-import ContactMe from "./Components/ContactMe";
-import ProjectContainer from "./Components/ProjectContainer";
+import ErrorPage from "./pages/Error-page";
+import Skills from "./pages/Skills";
+import AboutMe from "./pages/AboutMe";
+import Projects from "./pages/Projects";
+import ContactMe from "./pages/ContactMe";
+import ProjectContainer from "./components/ProjectContainer";
 
 const router = createBrowserRouter([
     {
