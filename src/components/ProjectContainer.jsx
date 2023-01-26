@@ -29,9 +29,10 @@ const ProjectContainer = ({
         <Container
             bg={darkMode ? "light" : "dark"}
             text={darkMode ? ["light-color"] : ["dark-color"]}
-            className="mb-4"
+            className="mb-1 align-items-center justify-content-center"
             style={{
-                height: "750px",
+                minHeight: "600px",
+                height: "700px",
             }}
         >
             <Row

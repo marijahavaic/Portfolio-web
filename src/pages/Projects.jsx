@@ -13,7 +13,7 @@ import ProjectContainer from "../components/ProjectContainer";
 const Projects = ({ darkMode }) => {
     const { t } = useTranslation();
     return (
-        <div className="Projects">
+        <div className="Projects mb-1">
             <h1 className="p-3 text-center">
                 <a id="projects" href="#projects">
                     {t("projects")}
@@ -30,6 +30,7 @@ const Projects = ({ darkMode }) => {
                         badges={project.badges}
                         icons={project.icons}
                         darkMode={darkMode}
+                        key={project.id}
                     />
                 ))}
             </div>

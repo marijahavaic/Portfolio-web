@@ -25,11 +25,10 @@ import "swiper/scss/pagination";
 import { useTranslation } from "react-i18next";
 
 import { projects } from "../data/projectsDetails";
-
-import ProjectContainer from "./ProjectContainer";
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
 
 function ProjectSwiper({ darkMode }) {
-    const { t } = useTranslation();
     return (
         <Swiper
             modules={[
@@ -44,7 +43,7 @@ function ProjectSwiper({ darkMode }) {
             spaceBetween={1}
             slidesPerView={1}
             autoplay={{
-                delay: 10000,
+                delay: 3000,
                 disableOnInteraction: false,
             }}
             coverflowEffect={{
@@ -62,18 +61,19 @@ function ProjectSwiper({ darkMode }) {
             data-swiper-autoplay="2000"
             // onSwiper={(swiper) => console.log(swiper)}
             // onSlideChange={() => console.log("slide change")}
+            className="mb-5"
         >
             {projects.map((project) => (
                 <SwiperSlide key={project.id}>
-                    <ProjectContainer
-                        image={project.image}
-                        altText={project.alt}
-                        title={t(`project_list.${project.slug}.title`)}
-                        text={t(`project_list.${project.slug}.text`)}
-                        badges={project.badges}
-                        icons={project.icons}
-                        darkMode={darkMode}
-                    />
+                    <Container>
+                        <Image
+                            variant="top"
+                            src={project.image}
+                            className="w-100 h-100 mb-xs-1"
+                            alt={project.altText}
+                            key={project.id}
+                        />
+                    </Container>
                 </SwiperSlide>
             ))}
         </Swiper>
