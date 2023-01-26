@@ -22,8 +22,6 @@ import "swiper/scss";
 import "swiper/scss/navigation";
 import "swiper/scss/pagination";
 
-import { useTranslation } from "react-i18next";
-
 import { projects } from "../data/projectsDetails";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
