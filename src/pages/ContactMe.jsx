@@ -46,23 +46,23 @@ const ContactMe = () => {
                 </h1>
                 <Form.Group
                     className="mb-3"
-                    controlId="exampleForm.ControlInput1"
+                    // controlId="exampleForm.ControlInput1"
                 >
-                    <Form.Label>{t("name")}</Form.Label>
+                    <Form.Label htmlFor="user_name">{t("name")}</Form.Label>
                     <Form.Control
                         type="text"
                         placeholder="John Doe"
                         name="user_name"
                         required
                     />
-                    <Form.Label>{t("email")}</Form.Label>
+                    <Form.Label htmlFor="email">{t("email")}</Form.Label>
                     <Form.Control
                         type="email"
                         placeholder="name@example.com"
                         name="user_email"
                         required
                     />
-                    <Form.Label>{t("message")}</Form.Label>
+                    <Form.Label htmlFor="message">{t("message")}</Form.Label>
                     <Form.Control
                         as="textarea"
                         rows={3}
