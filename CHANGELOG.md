@@ -1,13 +1,27 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+## V2.0.0
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+---
 
-### Added 
-### Changed
-### Deprecated 
-### Removed
-### Fixed
-### Security
+Jan 26, 2023
+
+-   Add routing with React Router
+-   Add loading for routes
+-   Add tooltips to icons with links
+-   Add icons for Python, Styled Components, SQL, Flask
+-   Add project gallery
+-   Add Frontend Mentor projects
+-   Add Budget Tracker project
+-   Adjust text on a mobile version
+-   Create mockups in Figma
+-   Fix space while scrolling
+-   Fix nested a tags issues
+-   Implement detect system theme
+-   Implement new layout
+-   Improve A11y
+-   Replace an old CV
+-   Replace the dropbox link to a folder
+-   Replace react-bootstrap with 5.2 version
+-   Update file structure
+-   Update README
