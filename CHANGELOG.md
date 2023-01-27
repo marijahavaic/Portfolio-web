@@ -4,24 +4,22 @@
 
 ---
 
-Jan 26, 2023
+Jan 27, 2023
 
--   Add routing with React Router
--   Add loading for routes
--   Add tooltips to icons with links
+-   Add Frontend Mentor and Budget Tracker projects
 -   Add icons for Python, Styled Components, SQL, Flask
--   Add project gallery
--   Add Frontend Mentor projects
--   Add Budget Tracker project
--   Adjust text on a mobile version
--   Create mockups in Figma
--   Fix space while scrolling
--   Fix nested a tags issues
--   Implement detect system theme
--   Implement new layout
--   Improve A11y
--   Replace an old CV
--   Replace the dropbox link to a folder
--   Replace react-bootstrap with 5.2 version
--   Update file structure
+-   Add tooltips to icons with links
+-   Change layout to use navbar instead of scrolling
+-   Change project gallery to show only screenshots
+-   Display all project mockups listed under project gallery
+-   Fix center text alignment on mobile
+-   Fix error for using nested anchor tags
+-   Implement detect system theme (dark/light mode)
+-   Improve accessibility and SEO score to over 90%
+-   Reduce empty space size between sections
+-   Reorganize project file structure for better readability
+-   Update CV version and use Dropbox folder link instead of a file link
+-   Update `react-bootstrap` version to 5.2 to fix deprecation warning
 -   Update README
+-   Use mockups created in Figma in project gallery
+-   Use React Router instead of anchor tags
