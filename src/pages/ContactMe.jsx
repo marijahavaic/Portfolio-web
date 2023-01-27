@@ -13,25 +13,26 @@ import { useTranslation } from "react-i18next";
 const ContactMe = () => {
     const { t } = useTranslation();
     const form = useRef();
+    let feedback = "";
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs
-            .sendForm(
-                process.env.REACT_APP_EMAILJS_SERVICE_ID,
-                process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-                form.current,
-                process.env.REACT_APP_EMAILJS_PUBLIC_KEY
-            )
-            .then(
-                (result) => {
-                    console.log(result.text);
-                },
-                (error) => {
-                    console.log(error.text);
-                }
-            );
+        emailjs.sendForm(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            form.current,
+            process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        );
+        // .then(
+        //     (result) => {
+        //         feedback = "Your message was sent";
+        //     },
+        //     (error) => {
+        //         feedback = "An error has occured";
+        //         // console.log(error.text);
+        //     }
+        // );
 
         form.current.reset();
     };
