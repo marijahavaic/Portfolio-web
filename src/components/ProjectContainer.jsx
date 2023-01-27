@@ -40,7 +40,7 @@ const ProjectContainer = ({
                 md={2}
                 className="align-items-center justify-content-center h-100"
             >
-                <Col xs md={7}>
+                <Col xs={12} md={7}>
                     <Container>
                         <Image
                             variant="top"
