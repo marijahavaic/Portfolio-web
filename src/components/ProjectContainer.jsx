@@ -56,7 +56,7 @@ const ProjectContainer = ({
                             {title}
                         </h2>
                         <p className="px-3 ">{text}</p>
-                        <div className="px-3" style={{ height: "5.5rem" }}>
+                        <div className="px-3 my-1" style={{ height: "5.5rem" }}>
                             {badges.map((badge, i) => (
                                 <Badge
                                     key={i}
@@ -71,7 +71,7 @@ const ProjectContainer = ({
                         </div>
                         <Container
                             variant="bottom"
-                            className="d-flex justify-content-center align-items-center"
+                            className="d-flex justify-content-center align-items-center my-1"
                         >
                             <Row>
                                 {icons.map((icon, i) => (

@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import "./i18n";
 import ErrorPage from "./pages/Error-page";
@@ -14,7 +14,7 @@ import Projects from "./pages/Projects";
 import ContactMe from "./pages/ContactMe";
 import ProjectContainer from "./components/ProjectContainer";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <App />,
