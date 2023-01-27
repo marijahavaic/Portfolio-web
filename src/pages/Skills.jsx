@@ -18,9 +18,7 @@ const Skills = () => {
     return (
         <div className="Skills">
             <Container className="justify-content-center align-items-center text-center my-md-3 py-md-3 my-xs-1 py-xs-1">
-                <a id="skills" href="#skills">
-                    <h1>{t("skills")}</h1>
-                </a>
+                <h1>{t("skills")}</h1>
                 <Row xs={1} md={2} className="pt-3 align-items-center ">
                     <Col
                         className="justify-content-center align-items-center"
