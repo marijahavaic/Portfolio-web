@@ -85,11 +85,11 @@ const translationsFr = {
         },
         notes: {
             title: "Notes et Todos App",
-            text: `Application React adaptée au mobile qui permet à un utilisateur de créer, modifier et de supprimer des notes autocollantes et des "todos" à l'aide de composants fonctionnels et de crochets, sauvegardés dans le stockage local du navigateur (HTML5); filtrer en recherchant des correspondances de mots.`,
+            text: `Application React adaptée au mobile qui permet à un utilisateur de créer, modifier et de supprimer des notes autocollantes et des "todos" à l'aide de composants fonctionnels et de hooks, sauvegardés dans le stockage local du navigateur (HTML5); filtrer en recherchant des correspondances de mots.`,
         },
         form: {
             title: "Page d'inscription",
-            text: `Formulaire d'inscription React simple et adapté aux téléphones portables, qui démontre l'utilisation du crochet d'état React et de la validation des entrées de l'utilisateur.`,
+            text: `Formulaire d'inscription React simple et adapté aux téléphones portables, qui démontre l'utilisation du hook d'état React et de la validation des entrées de l'utilisateur.`,
         },
         portfolio: {
             title: "Site de Portfolio",
