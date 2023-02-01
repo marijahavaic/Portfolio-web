@@ -67,7 +67,7 @@ const translationsFr = {
     home: "Accueil",
     about: "Qui suis-je",
     aboutme: "Salut, je suis",
-    aboutmetext: `Je suis passionné par la création d'applications Web en utilisant JavaScript et React avec une expérience de création d'applications Web pendant deux ans.`,
+    aboutmetext: `Je suis passionné par la création d'applications web réactives efficaces, axées sur le mobile, à l'aide de JavaScript et de React. J'ai acquis de l'expérience dans ce domaine tout au long d'un parcours de deux ans qui m'a permis de changer de carrière afin d'obtenir un poste valorisant.`,
     download: "Télécharger CV",
     skills: "Compétences",
     designSkills: "Désign",
@@ -81,27 +81,27 @@ const translationsFr = {
     project_list: {
         lyrics: {
             title: "Chercheur de paroles de chanson ",
-            text: `Application Vanilla JavaScript qui utilise une API pour trouver des chansons qui a commencé comme une simple représentation DOM des réponses de l'API JSON et est devenue un site Web pour rechercher et afficher l'artiste, les chansons et l'échantillon de chanson.`,
+            text: `Application Vanilla JavaScript qui utilise une API de récupération JSON et async/await pour les appels API asynchrones afin de récupérer les paroles et le nom de l'artiste.`,
         },
         notes: {
             title: "Notes et Todos App",
-            text: `Application React qui permet à un utilisateur de créer, modifier et supprimer des post-it autocollants et des tâches avec des listes de contrôle, filtrer en recherchant des correspondances de mots et permet à l'utilisateur de fermer et de rouvrir la page sans perte de données.`,
+            text: `Application React adaptée au mobile qui permet à un utilisateur de créer, modifier et de supprimer des notes autocollantes et des "todos" à l'aide de composants fonctionnels et de crochets, sauvegardés dans le stockage local du navigateur (HTML5); filtrer en recherchant des correspondances de mots.`,
         },
         form: {
             title: "Page d'inscription",
-            text: `Il s'agit d'une page d'inscription qui utilise la gestion du formulaire de crochet d'état React et la validation des entrées du formulaire React.`,
+            text: `Formulaire d'inscription React simple et adapté aux téléphones portables, qui démontre l'utilisation du crochet d'état React et de la validation des entrées de l'utilisateur.`,
         },
         portfolio: {
             title: "Site de Portfolio",
-            text: `React Application de portefeuille personnel conviviale pour mobile qui présente une brève introduction, des compétences, des projets et fournit aux utilisateurs un formulaire de contact.`,
+            text: `Application de portefeuille personnel adapté aux mobiles qui présente une brève introduction, des compétences, des projets et fournit aux utilisateurs un support multi-langue en utilisant la bibliothèque i18next ainsi qu'un formulaire de contact.`,
         },
         budget: {
             title: "Application de suivi budgétaire",
-            text: `Il s’agit du projet final du cours Harvard CS50 Introduction to Computer Science. C'est une application de suivi budgétaire qui utilise un document bancaire en format CSV pour montrer le solde actuel, les dépenses totales, les tendances des soldes et les tendances des dépenses.`,
+            text: `Il s'agit du projet final du cours CS50x de Harvard, Introduction à l'informatique. Il s'agit d'une application de suivi budgétaire qui utilise un document bancaire au format CSV pour afficher le solde actuel, les dépenses totales, les tendances du solde et les tendances des dépenses.`,
         },
         order: {
             title: "Carte récapitulative de commande",
-            text: "Il s’agit d’une solution au problème de carte récapitulative de commande dans Frontend Mentor.",
+            text: "Il s’agit d’une solution au défi de carte récapitulative de commande dans Frontend Mentor.",
         },
         intro: {
             title: "Introduction avec de navigation déroulante",
