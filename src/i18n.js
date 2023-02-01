@@ -67,7 +67,7 @@ const translationsFr = {
     home: "Accueil",
     about: "Qui suis-je",
     aboutme: "Salut, je suis",
-    aboutmetext: `Je suis passionné par la création d'applications web réactives efficaces, axées sur le mobile, à l'aide de JavaScript et de React. J'ai acquis de l'expérience dans ce domaine tout au long d'un parcours de deux ans qui m'a permis de changer de carrière afin d'obtenir un poste valorisant.`,
+    aboutmetext: `Je suis passionnée par la création d'applications web réactives efficaces, axées sur le mobile, à l'aide de JavaScript et de React. J'ai acquis de l'expérience dans ce domaine tout au long d'un parcours de deux ans qui m'a permis de changer de carrière afin d'obtenir un poste valorisant.`,
     download: "Télécharger CV",
     skills: "Compétences",
     designSkills: "Désign",
