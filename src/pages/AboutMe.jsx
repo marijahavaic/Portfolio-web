@@ -38,7 +38,6 @@ const AboutMe = () => {
                 </Col>
                 <Col className="align-self-center px-3" xs="auto">
                     <h1>{t("aboutme")} Marija!</h1>
-
                     <p>{t("aboutmetext")}</p>
                     <Container
                         className="px-0 py-2 

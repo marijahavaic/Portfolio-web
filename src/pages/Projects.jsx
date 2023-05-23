@@ -13,11 +13,9 @@ import ProjectContainer from "../components/ProjectContainer";
 const Projects = ({ darkMode }) => {
     const { t } = useTranslation();
     return (
-        <div className="Projects mb-1">
+        <div className="Projects">
             <h1 className="p-3 text-center">
-                <a id="projects" href="#projects">
                     {t("projects")}
-                </a>
             </h1>
             <ProjectSwiper darkMode={darkMode} />
             <div className="projectGallery">
